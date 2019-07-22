@@ -651,6 +651,85 @@
     }
 
 
+    
+    /* INDEX PAGE - SECTION HOW IT WORKS */
+    
+    #section-how-it-work{
+    padding-bottom:30px;
+    padding-top:3%;
+    border-bottom: 1px solid #fafafa;
+    background-color: #ffffff;
+    }
+ 
+    #section-how-it-work .main-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #131f28;
+    font-family: "Roboto Condensed";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #7ed957;
+    }
+
+    #section-how-it-work .main-title img {
+    margin-right: 20px;
+    display: block;
+    float: left;
+    margin-top: -26px;
+    }
+
+  
+    
+    .inner-how-it-work-1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    }
+
+    .inner-how-it-work-1 .first-side-work  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease-in-out;
+    }
+
+    .inner-how-it-work-1 .first-side-work  img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    }
+
+    .inner-how-it-work-1 .first-side-work .headline-app{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    color: #131f28 !important;
+    font-size:18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
+
+    .inner-how-it-work-1 .first-side-work{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-right: 20px;padding-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    .inner-how-it-work-1 .first-side-work .text-description{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #131f28;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+
+
 
     /* OUR PORTFOLIO GALLERY SECTION ON HOME PAGE */
 
@@ -2548,10 +2627,162 @@
 
 
 
+    /* ============= testimonials page  =================== */
+    
+
+    .masthead-test {
+    background:url(../img/cover-testimonials-picture.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-color: #bec9d2;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top:70px;
+    }
+
+    .masthead-test .text-box{
+    float: left;
+    display: block;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    }
+
+    .masthead-test .text-box h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #131f28;
+    font-family: "Roboto Condensed";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #7ed957;
+    }
+
+    .masthead-test .text-box h2 img{
+    margin-right: 20px;
+    display: block;
+    float: left;
+    margin-top: -26px;
+    }
+
+    .masthead-test .text-box p{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #3a3a38;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+    width:100%;
+    }
+
+    .review-section{
+    display: block;
+    width: 100%;
+    background-color: #fafafa;
+    padding-top:40px;padding-bottom:40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    .review-section .text-box-cust h2{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    color:#131f28;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+    .review-section .text-box-cust h4{
+        font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #7b7a7a;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom:40px;
+    }
+
+    .review-section .text-box-cust .border-line-4 {
+    border-bottom: 1px solid #dcdbdb;
+    width: 15%;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;margin-left: auto;
+    }
+
+     .review-section .impression-user{
+        background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #efeeee;
+    width: 97%;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff url(../img/quote.png) no-repeat left;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    height: 255px;
+
+    }
+
+    .review-section .impression-user h6{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #9ba0a2;
+    font-size: 16px;
+    text-align: center;
+    padding-top:20px;
+    line-height: 20px;
+
+    }
+
+    .review-section .impression-user .name-cst{
+     font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #131f28;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    }
+
+    .review-section .impression-user .position {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #687f96;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 0;
+    }
+    .review-section .impression-user .title-cst{
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    color: #cccaca;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 5px;
+
+    }
+
+    .review-section .impression-user img{
+    position: absolute;
+    left: 40%;
+    top: -17%;
+    }
 
 
 
-    /* ============= REQEST BOOKING REPAIR PAGE  =================== */
+
+
 
 
 
@@ -2842,6 +3073,9 @@
         }
 
 
+
+
+        /*  Clients Feedback */
 
 
 
