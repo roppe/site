@@ -1605,6 +1605,171 @@
     }
 
 
+
+    /* Servcices page  v2  design*/
+
+    
+    #comapany-service{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+
+
+    #comapany-service .first-service-1{
+    background-color: #fff;
+    padding-bottom:40px;
+    }
+
+    #comapany-service .first-service-1 h2{
+     
+      font-size: 32px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #131f28;
+    font-family: "Roboto Condensed";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #7ed957;
+    padding-bottom: 8px;
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+
+     #comapany-service .first-service-1 p{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #3a3a38;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+     }
+
+
+    .first-service-1 .go-about{
+    display: block;
+    float: right;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: 14px;
+    }
+
+    .first-service-1 .go-about span{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #262727;
+    font-size: 19px;
+    margin-top: 2px;
+    text-align: center;
+
+    }
+
+    .first-service-1 .go-about .fa{
+    margin-left: 10px;
+    color: #262727;
+    }
+
+
+    #comapany-service .right-gallery {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    padding-bottom: 40px;
+    }
+
+    #comapany-service .right-gallery .serv-img{
+    display: block;
+    width: 100%;
+    height:350px;
+    margin-bottom: 25px;
+    }
+
+
+    .right-gallery .border-line{
+     display: block;
+    width: 68%;
+    border: 2px solid #7ed957;
+    position: absolute;
+    bottom: 60px;
+    }
+
+    .right-gallery .open-gallery {
+     background-color: #7ed957;
+    color: #fff;
+    border-radius: 0;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    float: right;
+    }
+
+     .right-gallery .open-gallery:hover{
+        background-color:#4ca725;
+     }
+
+
+    /* oru services icons list*/
+
+    .list-repairs-link{
+    margin-bottom:20px;
+    background-color:#fafafa;
+       max-width: 7.6%;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: px;
+    border: 1px solid #dedbdb;
+    /* background: url(../img/blue-lines.png); */
+    /* background-repeat: no-repeat; */
+    transition: all .2s ease-in-out;
+
+    }
+
+    .list-repairs-link img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 45px;
+    }
+
+    .list-repairs-link  h5{
+    font-weight: 500;
+    color: #131f28;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top:15px;
+    font-size: 13px;
+    width: 100%;
+    background:#fafafa;
+   
+    padding-top:2px;padding-bottom:2px;
+    letter-spacing: 1px;
+    }
+    .list-repairs-link a{
+    text-decoration: none;
+    }
+
+    .list-repairs-link a:hover h5{
+    color: #073664;
+    } 
+
+
+
+
+
+
+
+
+
     /* ----------- GALLERY PAGE --------------- */
     
     .cover-gallery {
