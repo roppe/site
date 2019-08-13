@@ -451,6 +451,10 @@
     padding-top: 30px;
     padding-bottom:60px;
     background-color: #fafafa;
+        background-image: url(../img/background-square.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     }
    
 
@@ -659,7 +663,7 @@
     font-weight: 700;
     color:#f7f5f5;
     font-size: 32px;
-    text-align: left;
+    text-align:center;
     padding-bottom: 10px;
     letter-spacing: 1px;
     
@@ -744,6 +748,8 @@
     padding-top:3%;
     border-bottom: 1px solid #fafafa;
     background-color: #ffffff;
+        background-image: url(../img/line-pattern.png);
+    background-repeat: repeat;
     }
  
     #section-how-it-work .main-title{
@@ -822,6 +828,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #fafafa;
+  
     }
 
    
@@ -1295,7 +1302,7 @@
     font-weight: 500;
     color:#ffffff;
     text-align: center !important;
-    font-size:23px;
+    font-size:21px;
     letter-spacing: 1px;
     padding-top:6px;padding-bottom:6px;
     margin-left: auto;
@@ -1834,7 +1841,7 @@
      font-family: "Roboto Condensed";
     font-weight: 700;
     border-radius: 0;
-    background: transparent;
+    background::;
     text-align: center;
     font-size: 12px;
     border: 1px solid #e8e6e6;
@@ -2063,12 +2070,15 @@
     }
 
 
+
+
     /* Contact us form  */
 
     #get-quote-section{
     padding-top: 3%;
     padding-bottom: 6%;
     border-top: 1px solid #eee;
+    background-color: #eee;
     }
 
     #get-quote-section .quote-text-top{
@@ -2112,7 +2122,7 @@
     .contact-us .contact-form {
     font-size: 16px;
     color: #728292;
-    background: transparent;
+    background:#fafafa;
     border: 1px solid #ccc;
     border-radius: 0;
     font-family: "Roboto Condensed";
@@ -3061,277 +3071,207 @@
 	
 
     @media (max-width: 991px) {
-        
-         .banner-cover-repair .text-headline h2 span{
-            font-size:26px;
-         }
+    
+    .adress-nav{
+        padding-left: 5px;
+    }
 
 
-         .banner-cover-repair .text-headline h2 {
-            font-size: 26px;
-         }
+    .list-repairs-link h5{
+        font-size: 10px;
+    }
 
-         #repair-description .left-content .screen-title span, #repair-description .left-content .screen-title{
-            font-size: 25px;
-         }      
+    .list-repairs-link img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37px;
+    height: 37px;
+    }
 
-        .location-desc-left h2{
-            font-size: 28px;
-        }
+    #comapany-service .first-service-1 h2{
+        font-size: 27px;
+    }
 
-        .location-desc-left p{
-            font-size: 14px;
-        }
+    #comapany-service .first-service-1 p{
+        font-size: 15px;
+    }
 
-        .single-service{
-            margin-top: 10px;
-        }
+    .right-gallery .border-line{
+        bottom: 80px;
+    }
 
-        .single-service img {
-        width: 40%;
-        }
+    .first-service-1 .go-about span{
+        font-size: 18px;
+    }
 
-        .single-service h5{
-            font-size: 14px;
-        }
+    .logo-carousel .carousel-control-next {
+    right: -30px;
+    bottom: 55px;
+    }
 
-        #location-header-section .text-zone-location h1{
-            font-size: 32px;
-        }
+    .logo-carousel .carousel-control-prev {
+    bottom: 55px;
+    left: -30px;
+    }
 
-        #location-header-section .text-zone-location h1 span{
-            font-size: 32px;
-        }
+    .cover-gallery .text-box,.masthead-contact .text-box,.masthead-test .text-box{
+        padding-top: 25px;
+    }
 
-        .repair-box-list img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        transition: all .2s ease-in-out;
-        width: 85px;
-        }
+    .cover-gallery .text-box h2,.masthead-services .text-box h2,.masthead-test .text-box h2,.masthead-contact .text-box h2{
+        font-size: 28px;
+    }
 
-        .repair-box-list{
-        padding-bottom: 5px;
-        padding-top: 5px;
-        }
+    .cover-gallery .text-box h2 img,.masthead-test .text-box h2 img, .masthead-contact .text-box h2 img{
+        margin-top: -33px;
+    }
 
-        .repair-box-list h5{
-            font-size: 13px;
-        }
+    .cover-gallery .text-box p, .masthead-services .text-box p, .masthead-test .text-box p,.masthead-contact .text-box p{
+        font-size: 15px;
+    }
 
-        #repair-panel .rep-title{
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
 
-        #section-how-it-work .main-subtitle-2{
-            font-size: 20px;
-            margin-bottom: 2%;
-        }
 
-        .cover-repair .text-area h3{
-            font-size: 30px;
-        }
+      .carousel-caption{
+      top: 12%;
+      left:2%;
+      }
 
-        .inner-how-it-work-1 .first-side-work{
-            padding-left: 5px;padding-right: 5px;
-            border-right: 1px solid #eee;
-        }
+      .carousel-caption h2{
+      font-size: 30px;
+      }
 
-        .inner-how-it-work-1 .first-side-work .headline-app{
-            font-size: 16px;
-        }
+      .carousel-caption p{
+      font-size: 18px;
+      margin-top: 5px;
+      }
 
-        .inner-how-it-work-1 .first-side-work .text-description{
-            font-size: 13px;
-            padding-right:7px;padding-left:5px;
-        }
+      .carousel-caption .btn-action-go{
+      font-size: 13px;
+      margin-top: 3%;
+      }
 
-        .cover-repair .text-area h3 span{
-            font-size: 30px;
-        }
+      #our-portfolio .btn-go-gallery{
+        width: 190px;
+        padding-top:10px;padding-bottom: 10px;
+      }
 
-        #about-us .about-main-1 .title span{
-            font-size: 34px;margin-bottom: 10px;
-        }
+      #our-services .box-text h2{
+      font-size: 27px;
+      }
 
-        #about-us .about-main-1 h5{
-            font-size: 24px;
-        }
+      #our-services .box-text p{
+      font-size: 16px;
+      }
 
-        .cover-repair .text-area{
-            padding-top: 11%;
-        }
+      .logo-carousel .carousel-item p{
+      font-size: 17px;
+      }
 
-        #repair-list .text-title h2{
-            font-size: 28px;
-        }
+      .about-left-side .text-inner h2{
+      font-size: 30px;
+      }
 
-        #repair-list .text-title h4{
-            font-size: 15px;
-            margin-bottom: 15px;
-        }
+      .about-left-side .text-inner p{
+      font-size: 15px;
+      }
 
-        #repair-list .list-repairs-link img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70px;
-        height: 66px;
-        }
-        #repair-list .list-repairs-link h5{
-            font-size: 11px;
-        }
+      .about-left-side .text-inner .btn-go-about{
+      width: 160px;
+      font-size: 15px;
+      }
 
-        #repair-list .go-services{
-            margin-top: 13px;
-        }
+      .inner-how-it-work-1 .first-side-work .headline-app{
+      font-size: 16px;
+      }
 
-        #sell-ipad-header .txt-header h1{
-            font-size: 27px;
-        }
+      .inner-how-it-work-1 .first-side-work .text-description{
+      font-size: 13px;
+      }
 
-        #sell-ipad-header .txt-header h2{
-            font-size: 18px;
-        }
+      .banner-call-1 .box-content-bnr img{
+      width: 15%;
+      margin-top: 15px;
+      margin-right: 5px;
+      }
 
-        .sell-ipad-steps img{
-            width: 85%;
-        }
+      .banner-call-1 .box-content-bnr h5{
+      font-size: 27px;
+      text-align: center;
+      }
 
-        .sell-ipad-steps .headline{
-            font-size: 16px;
-        }
+      .banner-call-1 .box-content-bnr h3{
+      font-size: 20px;
+      text-align: center;
+      }
 
-        .sell-left-side h2{
-            font-size: 21px;
-        }
+      .box-content-bnr .btn-started{
+      font-size: 14px;
+      float: none !important;
+      display: block !important;
+      margin-left: auto;margin-right: auto;
+      padding-left: 15px;padding-right: 15px;
+      width: 220px;
 
-        .sell-left-side h5{
-            font-size: 18px;
-        }
+      }
 
-        #sell-device-section .sell-text-top h6{
-            font-size: 13px;
-        }
+      #our-portfolio .box-text-portfolio h2{
+      font-size: 28px;
+      }
 
-        .sell-left-side p{
-            font-size: 13px;
-        }
+      #our-portfolio .box-text-portfolio p{
+      font-size: 15px;
+      }
 
-        #sell-device-section .sell-text-top h2{
-            font-size: 25px;
-            letter-spacing: 1px;
-        }
+      .portfolio-box .portfolio-name{
+      font-size: 18px;
+      background-color: transparent;
+      text-align: left;
+      }
 
-       .banner-pricing-cover .price-text-headline h2{
-        font-size: 24px;
-       }
+      .portfolio-box .portfolio-name:hover {
+      background-color:transparent;
+      color: #000;
+      cursor: pointer;
+      }
 
-       .card-expand .expand-img{
-        width: 80%;
-       }
+      #our-portfolio .btn-go-gallery span{
+      font-size: 15px;
+      }
 
-     
+      #contact-section .cnt-text .cnt-subtitle {
+        font-size: 32px;
+      }
 
-        .cover-locations-top .loc-title{
-            font-size: 25px;
-            margin-bottom: 30px;
-        }
+    .box-contact .icons-contact {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    }
 
-        .inline-steps img{
-            width: 60%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            float: none;
-        }
+    .box-contact .skew-txt-bck h3{
+        font-size: 17px;
+    word-break: break-all;
+    }
 
-        .inline-steps{
-            margin-top: 15px;
-            border-bottom: none;
-        }
+    .customer-section .impression-2{
+        margin-top: 60px;
+    }
 
-        .inline-steps h2{
-            float: left;
-        }
+    #contact-section .btn-go-now span {
+        font-size: 15px;
+    }
 
-        .inline-steps p{
-            float: left;
-            font-size: 12px;
-        }
+    #contact-section .btn-go-now {
+        width: 190px;
+    }
 
-        .ny-area-list{
-        padding-left: 0;
-        }
+    .box-contact .skew-txt-bck a{
+        font-size: 16px;
+    }
 
-        .cover-locations-top .locations-side{
-            border-left:none;
-            border-top: 1px solid #eee;
-        }
-
-         .banner-faq-cover{
-            height: auto;
-            padding-bottom: 50px;
-         }
-         
-         .tz-gallery .gallery-main-title{
-            font-size: 28px;
-         }
-
-         .banner-cover-repair .text-headline{
-            padding-top: 8%;
-         }
-
-         .banner-contact-us .box-cnt-txt h3 span{
-            font-size: 27px;
-         }
-         .banner-contact-us .box-cnt-txt .btn-go-contact{
-            margin-bottom: 20px;
-         }
-
-         .banner-sell .box-content-bnr img{
-            margin-top: 20px;
-         }
-
-         .top-header .right-button{
-            float: none !important;
-            text-align: left !important;
-         }
-
-         .top-header .right-button .phone-info{
-            display: block !important;
-            float: left !important;
-         }
-
-         .top-header .right-button .email-info{
-            display: block;
-            float: left;
-         }
-
-        #home-section{
-        background-color: #fafafa;
-        padding-top:20px;
-        padding-bottom:80px;
-        margin-top: 120px;
-        /* background-image: url(../img/screen-page-banner-top.jpg); */
-        width: 100%;
-        height: auto;
-        background-size: cover;
-        background-position: center top;
-        /*background-size: cover;
-        background-repeat: no-repeat;
-        padding: 170px 0 150px;*/
-        }
-
-        #home-section .text-area h2 span{
-            font-size: 25px;
-        }
-
-         #home-section .text-area h2{
-            font-size: 25px;
-        }
 
 
 
@@ -3347,484 +3287,149 @@
 	
 
     @media (max-width: 767.98px) {
-        
-       #location-header-section .text-zone-location h1{
+    
+    #comapany-service {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+    }
+
+    .right-gallery .border-line {
+    bottom: 80px;
+    display: none;
+    }
+
+    .list-repairs-link {
+    margin-bottom:5px;
+    background-color: #fafafa;
+    max-width: 13.6%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: px;
+    border: 1px solid #dedbdb;
+    /* background: url(../img/blue-lines.png); */
+    /* background-repeat: no-repeat; */
+    transition: all .2s ease-in-out;
+    }
+
+    .right-gallery .open-gallery {
+    background-color: #7ed957;
+    color: #fff;
+    border-radius: 0;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto !important;
+    width: 220px;
+    }
+
+    #comapany-service .first-service-1 p {
+    font-size: 14px;
+}
+
+    #comapany-service .first-service-1 h2{
         font-size: 24px;
-       }
-        #location-header-section .text-zone-location h1 span{
-        font-size: 26px;
-        }
+    }
 
-        #location-header-section .text-zone-location h2{
-            font-size: 26px;
-        }
-       
-       #sell-ipad-header .txt-header h1{
+      .cover-gallery .text-box h2,.masthead-services .text-box h2,.masthead-test .text-box h2,.masthead-contact .text-box h2{
         font-size: 24px;
-        }
+    }
 
-        .single-service h5 {
-        font-size: 13px;
-        }
+    .cover-gallery .text-box h2 img,.masthead-test .text-box h2 img, .masthead-contact .text-box h2 img, .masthead-services .text-box h2 img{
+       display: none;
+    }
 
-        #sell-ipad-header .txt-header h2{
-        font-size: 15px;
-        }
-
-        .map-location{
-            margin-top: 20px;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
-
-        .location-desc-left h2 {
-        font-size: 25px;
-        }
-
-        .location-desc-left h4{
-            font-size: 23px;
-        }
-
-        .location-desc-left h5{
-            font-size: 15px;
-        }
-
-        .sell-ipad-steps{
-        padding-left: 5px;padding-right: 5px;
-        }
-
-        .sell-ipad-steps .headline{
-        font-size: 15px;
-        }
-
-        .sell-ipad-steps p{
-            font-size: 12px;
-        }
-
-        .sell-right-side img{
-            width: 60%;
-        }
-
-       .banner-pricing-cover .price-text-headline h2{font-size: 22px;}
-
-       .banner-pricing-cover .price-text-headline h6{
-        font-size: 16px;
-       }
-
-       .card-expand .expand-img{
-        width: 95%;
-       }
-
-       .card-expand h4{
-        font-size: 17px;
-       }
-
-        .banner-cover-repair .text-headline .img-fluid{
-            width: 40%;
-        }
-
-        #pickup-header-section .text-zone h1{
-            font-size: 27px;
-        }
-       
-        .single-service{
-            margin-top: 10px;
-        }
-
-        .cover-locations-top .loc-title{
-            font-size: 18px;
-        }
-
-        .inline-steps img{
-            width: 80%;
-        }
-
-        .ny-area-list li a{
-            font-size: 13px;
-        }
-
-        .appointment-text-box h2{
-            font-size: 24px;
-        }
-
-        .appointment-text-box h6{
-            font-size: 14px;
-        }
-
-        .inline-steps h2 {
-        font-family: "Roboto Condensed";
-        font-weight: 500;
-        color: #073664 !important;
+    .cover-gallery .text-box p, .masthead-services .text-box p, .masthead-test .text-box p,.masthead-contact .text-box p{
         font-size: 14px;
-        text-align: left;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        }
+    }
+    
+    .carousel-caption h2{
+        font-size: 22px;
+    }
 
-         .section-price .col-sm-6 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25% !important;
-        max-width: 50%;
-        }
+    .carousel-caption p{
+        font-size: 16px;
+    }
 
-		.nav-list .dropdown .nav-dropdown li a img{
-			width: 35%;
-		}
+    #our-services .box-text h2 img{
+        margin-top: -32px;
+    }
 
-		.nav-list .dropdown .nav-dropdown{
-			margin-left: auto;
-			margin-right: auto;
-		}	
-	
-		.nav-list .dropdown .nav-dropdown a p{
-			font-size: 11px;
-		}
+    .banner-call-1 .box-content-bnr h3{
+        font-size: 16px;
+    }
 
-        .inner-how-it-work-1 .first-side-work{
-       
-        padding-bottom: 20px;
-        }
+    .banner-call-1 .box-content-bnr h5,  .banner-call-1 .box-content-bnr h5 span{
+        font-size: 22px;
+    }
 
-		.inner-how-it-work-1 .first-side-work .headline-app {
-	    font-size:17px;
-	    text-align:center;
-        margin-top: 20px;
-        margin-bottom: 15px;
-	   	}
+    .box-content-bnr .btn-started {
+    font-size: 14px;
+    float: none !important;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 220px;
+    margin-top: 15px;
+    padding-top: 12px;padding-bottom: 12px;
+    }
 
-	   	.inner-how-it-work-1 .first-side-work .text-description {
-	    font-family: "Roboto Condensed";
-	    font-weight: 400;
-	    color: #696868;
-	    font-size: 13px;
-	    text-align: center;
-		}
+    #our-portfolio .box-text-portfolio h2 img{
+        margin-top: -32px;
+    }
 
-        #home-section .text-area h2 span{
-        font-size: 23px;
-        margin-top: 20px;
-        }
-
-        #home-section .text-area h3{
-        font-size: 18px;
-        }
-
-        .cta-buttons-home .btn-demo-home{
-        font-size: 13px;
-        width: 165px;
-        margin-top: 20px;
-        }
-
-        .cta-buttons-home .btn-demo-home span{
-        font-size: 13px;
-        }
-
-        .repair-box-list img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        transition: all .2s ease-in-out;
-        width: 60px;height: 60px;
-        }
-
-        .repair-box-list{
-        border: none;
-        }
-
-        .repair-box-list h5{
-        font-size: 12px;
-        }
-
-        #repair-panel .rep-title{
-        font-size: 21px;
-        }
-
-        #repair-panel .btn-request-1{
-        font-size: 11px;
-        margin-top:5px;
-        }
-
-        .inner-how-it-work-1 .second-side-work img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px !important;
-        }
-        #about-us .about-main-1 .ab-txt{
-        font-size: 12px;
-        }
-
-        #about-us .about-main-1 .title span{
+    .review-section .text-box-cust h2{
         font-size: 28px;
-        margin-bottom: 5px;
-        }
+    }
 
-        #about-us .about-main-1 h5{
-        font-size: 21px;
-        margin-bottom: 15px;
-        }
-
-        .about-main-pic-2 img{
-        width: 60%;
-        margin-top: 5px;
-        }
-
-		.inner-how-it-work-2 {
-		padding-top: 70px;
-		padding-bottom: 64px;
-		}
-		.inner-how-it-work-2 .first-side-work .headline-app {
-		font-size: 32px;
-		text-align: center;
-		margin-top: 35px;
-		margin-bottom: 20px;
-		text-transform: uppercase;
-		}
-
-		.inner-how-it-work-2 .first-side-work .text-description {
-		font-size: 16px;
-		text-align: center;
-		
-		}
-        
-        .repair-box-list li{
-          padding-right: 5px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        }
-
-        #about-us .about-main-1{
+    .review-section .text-box-cust h4{
+        font-size: 17px;
         margin-bottom: 10px;
-        }
-       
+    }
 
-		.repair-txt-1 {
-		margin-top: 3%;
-		padding-right: 0;
-		}
+    .review-section .impression-user h6{
+        font-size: 15px;
+    }
 
-		.repair-txt-1 .title-1 {
-		font-size: 38px;
-		text-align:center;
-		margin-bottom: 15px;
-		}
-		.repair-txt-1 .title-1 span {
-		font-size: 38px;
-		text-align:center;
-		margin-bottom: 15px;
-		}
-		.repair-txt-1 .border {
-		width: 25%;
-		display: block;
-		border: 1px solid #ffffff;
-		margin-bottom: 40px;
-		margin-left: auto;
-		margin-right: auto;
-		}
+    .review-section .impression-user .name-cst{
+        font-size: 16px;
+    }
 
-		#repair-panel .repair-txt-1 p{
-			text-align: center;
-		}
-		
-		#repair-panel .repair-txt-1 .btn-request-1{
-			margin-top: 10%;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 20%;
-		}
-		
-		/* responsive repair page */
+   
+    .logo-left li .copy {
+    font-size: 9px;
+    text-align: left;
+    }
 
-		.ipad-devices-list{
-		
-		}
+    .adress-nav {
+    padding-left: 0;
+    }
 
-		
-		.ipad-devices-list .text-box-top h2{
-			font-size: 3vw;
-		}
+    .adress-nav li p {
+    font-size: 11px;
+    text-align:left;
+    }
 
-		.ipad-devices-list .text-box-top h4{
-			font-size: 12px;
-			text-align: center;
-		}
+    .adress-nav h3{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
 
-		.logo-carousel .carousel-control-prev {
-		bottom: 70px;
-		left:15px;
-		}
-
-		.logo-carousel .carousel-control-next {
-		right:15px;
-		bottom: 70px;
-		}
-
-		.banner-contact-us{
-			padding-bottom: 35px;
-		}
-
-		.banner-contact-us .box-img img {
-		margin-right: auto;margin-left: auto;
-		display: block;
-		margin-bottom: 5px;
-		float: none;
-		}
-
-		.banner-contact-us .box-cnt-txt h3 span{
-			font-size: 21px;
-		}
-
-		.banner-contact-us .box-cnt-txt h5{
-		font-size: 15px;
-		font-weight: 400;
-		}
-
-		.banner-contact-us .box-cnt-txt .btn-go-contact{
-		font-size: 12px;
-		width: 170px;
-		}
-		.banner-sell .box-content-bnr h3 span{
-			font-size: 3vw;
-		}
-
-		.banner-sell .box-content-bnr h5{
-			font-size: 17px;
-			font-weight: 400;
-		}
-
-		.banner-sell .box-content-bnr .btn-started{
-			font-size: 12px;
-			width: 180px;
-		}
-
-		.banner-sell .box-content-bnr img{
-			display: block;
-			float: none;
-			margin-left: auto;margin-right: auto;
-			width: 45%;
-			margin-top: 40px;
-		}
-		
-		.cover-repair .img-side img{
-			width:70%;
-		}
-		
-		
-		.banner-cover-repair {
-		padding-bottom: 5%;
-		margin-top: 125px;
-		background-color: #073664;
-		/* background-image: url(../img/screen-page-banner-top.jpg); */
-		width: 100%;
-		height: auto;
-		background-size: cover;
-		background-position: center top;
-		}
-
-		#repair-description .left-content .screen-title span,#repair-description .left-content .screen-title{
-			font-size: 28px;
-		}
-
-		#repair-description .left-content h5{
-			font-size: 16px;
-		}
-
-		#repair-description .left-content p {
-		font-family: "Roboto Condensed";
-		font-weight: 500;
-		color: #696868;
-		font-size: 13px;
-		text-align: left;
-		}
-
-		#repair-description .right-pic img {
-		margin-top: 4%;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-		width: 65%;
-		}
-
-		.txt-title-steps h4{
-			font-size: 22px;
-		}
-
-		.txt-title-steps h6{
-			font-size: 16px;
-		}
-
-		.tz-gallery .lightbox img{
-		width: 70%;
-		display: block;
-		margin-right: auto;margin-left: auto;
-		}
-
-		.tz-gallery{
-			width: 95%;
-		}
-
-		.adress-nav{
-			padding-left: 0;
-		}
-
-		.adress-nav li{
-			margin-left: 20px;
-		}
-
-		.social-footer{
-			padding-left: 0;
-		}
-
-		footer .text-rights{
-			font-size: 10px;
-			padding-left: 10px;padding-right: 10px;
-		}
-
-        .banner-contact-cover .contact-text-head h2{
-            font-size: 32px;
-        }
-       
-        .cover-repair .text-area .btn-qet-quote{
-            font-size: 13px;
-            width: 160px;
-        }
+    .social-footer{
+        padding-left:0;
+    }
 
 
-        #repair-list .text-title h2{
-            font-size:23px;
-        }
-        
-        #repair-list .text-title h4{
-            font-size: 12px;
-            font-weight: 400;
-        }
 
-        #repair-list .list-repairs-link img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60px;
-        height: 60px;
-        }
-
-        #repair-list .list-repairs-link h5{
-            font-size: 10px;
-        }
-
-        #repair-list .list-repairs-link{
-            border-right: 1px solid #dedbdb;
-            border-left: none;border-top: none;
-            border-bottom: none;
-        }
-
-        #repair-list .text-title{
-            margin-bottom: 10px;
-        }
-
-        
-       
 
 
 	}   /* /End responsive Tablet size */
@@ -3837,20 +3442,86 @@
 	
 	@media (max-width: 575.98px) { 
 	   	
-        #location-header-section .text-zone-location h1{
-            font-size: 16px;
-            margin-top: 5px;
+        .list-repairs-link {
+        margin-bottom: 2px;
+        background-color: #fafafa;
+        max-width: 19.6%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: px;
+        border: 1px solid #dedbdb;
+        /* background: url(../img/blue-lines.png); */
+        /* background-repeat: no-repeat; */
+        transition: all .2s ease-in-out;
         }
 
-        #location-header-section .text-zone-location h2{
-            font-size: 16px;
+        #comapany-service .first-service-1 h2{
+            font-size: 22px;
         }
 
-         #location-header-section .text-zone-location h1 span{
+        .logo-carousel .carousel-control-next {
+        right: -5px;
+        bottom: 55px;
+        }
+
+        .logo-carousel .carousel-control-prev {
+        bottom: 55px;
+        left: -5px;
+        }
+
+        .review-section .text-box-cust h2{
+            font-size: 25px;
+        }
+
+        .review-section .impression-user {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #efeeee;
+        width: 100%;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #fff url(../img/quote.png) no-repeat left;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        height:auto;
+        }
+
+        #tabs-gallery .gallery-item {
+        font-family: "Roboto Condensed";
+        font-weight: 700;
+        border-radius: 0;
+        background: transparent;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid #e8e6e6;
+        color: #131f28;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 14px;
+        text-transform: uppercase;
+        }
+
+        #tabs-gallery .tab-pane .portfolio-name{
             font-size: 21px;
-            margin-top: 5px;
         }
 
+        .review-section .impression-user h6 {
+        font-family: "Roboto Condensed";
+        font-weight: 400;
+        color: #9ba0a2;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 20px;
+        }
+
+
+       
         .main-navigation .nav-list .nav-link{
             margin-top: 5px;
             padding-top:4px;padding-bottom: 4px;
@@ -3863,6 +3534,10 @@
 
         .single-service img {
         width: 35%;
+        }
+
+        .review-section .text-box-cust h4{
+            margin-bottom: 10px;
         }
 
         .location-desc-left h2 {
@@ -3904,450 +3579,7 @@
             width: 28%;
         }
 
-        .section-price .col-sm-6 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25% !important;
-        max-width: 50%;
-        }
-
-		
-		.inner-how-it-work-1 .first-side-work .headline-app {
-		font-size: 15px;
-		text-align: center;
         
-		}
-
-        #section-how-it-work .main-title{
-            font-size: 20px;
-        }
-
-        #section-how-it-work .main-subtitle-2{
-            font-size: 16px;
-            margin-bottom: 2%;
-        }
-
-		.inner-how-it-work-1 .first-side-work .text-description {
-	     color: #696868;
-	    font-size: 11px;
-	    text-align:center;
-        font-weight: 500;
-		}
-
-        #home-section .text-area h2 span{
-            font-size:18px;
-            margin-top: 10px;
-        }
-        #home-section .text-area h2 {
-            font-size:18px;
-            margin-top:10px;
-        }
-
-        #about-us .about-main-1 .title span{
-            font-size: 32px;
-        }
-
-        #section-how-it-work .button-go-services{
-            font-size: 11px;
-            margin-top: 15px;
-        }
-
-        .logo-carousel .carousel-item p{
-            font-size: 13px;
-        }
-
-        .carousel-inner{
-            width: 95%;
-        }
-        
-         .logo-carousel .carousel-control-prev {
-        bottom: 44px;
-        left: 5px;
-        }
-
-        .logo-carousel .carousel-control-next {
-        right: 5px;
-        bottom: 46px;
-        }  
-       
-
-        .logo-carousel .carousel-item img{
-            width: 75%;
-        }
-
-        .repair-box-list h5{
-            font-size: 12px;
-        }
-
-        .repair-box-list img{
-            width:70px;height: 70px;
-        }
-
-        .repair-box-list{
-            max-width: 100%;
-        }
-
-        #repair-panel .btn-request-1{
-            font-size:9.5px;
-        }
-
-        #about-us .about-main-1 .ab-txt{
-            font-size: 12px;
-            font-weight:500;
-        }
-
-        #about-us .about-main-1{
-            margin-bottom: 5px;
-        }
-
-        .about-main-pic-2 img{
-            width: 60%;
-            margin-top: 5px;
-        }
-
-        #about-us .about-main-1 h5{
-            font-size: 22px;margin-bottom: 20px;
-        }
-
-        .inner-how-it-work-1 .first-side-work img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        transition: all .2s ease-in-out;
-        width: 80%;
-        }
-
-		.inner-how-it-work-1 .second-side-work img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 30px !important;
-		width: 60%;
-		}
-
-		.inner-how-it-work-2 .first-side-work .headline-app {
-		font-size: 26px;
-		text-align: center;
-		margin-top: 35px;
-		margin-bottom: 20px;
-		text-transform: uppercase;
-		}
-
-		.inner-how-it-work-2 .first-side-work .text-description {
-		font-size: 14px;
-		text-align: center;
-		
-		}
-
-		.inner-how-it-work-2 .second-side-work img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 60%;
-		}
-
-		.repair-txt-1 .title-1 {
-		font-size: 26px;
-		text-align:center;
-		margin-bottom: 15px;
-		}
-		.repair-txt-1 .title-1 span {
-		font-size: 26px;
-		text-align:center;
-		margin-bottom: 15px;
-		}
-		.repair-txt-1 .border {
-		width: 15%;
-		display: block;
-		border: 1px solid #ffffff;
-		margin-bottom: 40px;
-		margin-left: auto;
-		margin-right: auto;
-		}
-
-		#repair-panel .repair-txt-1 p{
-			text-align: center;
-			font-size: 14px;
-		}
-		#repair-panel .repair-txt-1{
-			padding-left: 0 !important;
-			  padding-right:0;
-		}
-
-		/* repair page mobile*/
-		.ipad-devices-list{
-			background-color: #eee;
-		}
-
-		.banner-contact-us .box-img img {
-		margin-right: auto;margin-left: auto;
-		display: block;
-		margin-bottom: 5px;
-		float: none;
-		width:45%;
-		}
-
-		.banner-contact-us .box-cnt-txt h3 span{
-		font-size:3.4vw;
-		margin-top: 0;
-		}
-
-		.banner-contact-us .box-cnt-txt h5{
-		font-size: 12px;
-		font-weight: 400;
-		}
-		
-		.banner-contact-us .box-cnt-txt .btn-go-contact {
-		font-size: 11px;
-		width: 155px;
-		}
-
-		.banner-sell .box-content-bnr h5{
-			font-size: 12px;
-		}
-
-		.banner-sell .box-content-bnr h3 span{
-			font-size: 4vw;
-		}
-
-		.ipad-devices-list .text-box-top h2{
-			font-size: 4vw;
-		}
-
-		
-
-        .cover-repair{
-        padding-top:10px;
-        }
-		
-		.cover-repair .text-area h3,.cover-repair .text-area h3 span{
-			text-align:left;
-			font-size:18px;
-			margin-bottom:15px;
-		}
-
-        .cover-repair .text-area .btn-qet-quote{
-            margin-top: 10px;
-        }
-
-		.cover-repair .img-side img{
-			width:50%;
-		}
-		
-		#repair-list .list-repairs-link{
-			max-width: 170px;
-		}
-
-		#repair-list .list-repairs-link h5{
-			font-size: 15px;
-		}
-
-		#repair-description .left-content .screen-title span,#repair-description .left-content .screen-title{
-			font-size: 24px;
-		}
-
-		#repair-description .left-content h5{
-			font-size: 15px;
-		}
-
-		.banner-cover-repair .text-headline h2 span, .banner-cover-repair .text-headline h2{
-			font-size:20px;
-		}
-		
-		.tz-gallery .gallery-main-title{
-			font-size: 24px;
-		}
-
-
-		/* Location pickup drop off page */
-
-		.ny-area-list {
-		display: block;
-		padding-left:15px;
-		}
-
-
-        .contact-us-form{
-        width: 98%;
-        }
-
-        .banner-contact-cover .contact-text-head h2{
-        font-size: 26px;
-        }
-
-        .banner-contact-cover .contact-text-head h6{
-        font-size: 15px;
-        }
-
-        .contact-list-text h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        }
-
-        .contact-list-text{
-            padding-left: 10px;
-        }
-
-        .contact-list-text li p{
-            font-size: 15px;
-        }
-
-       
-
-         .faq-tabs .faq-question {
-        font-size: 13px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 15px;
-        }
-
-        .faq-tabs{
-        margin-bottom: 20px;
-        }
-
-        .faq-tabs p{
-        font-size: 13px;
-        }
-
-         
-
-        #pickup-header-section .text-zone h1{
-            font-size: 23px;
-        }
-
-       
-        .single-service h5{
-        font-size: 13px;
-        }
-
-        .inline-steps img{
-            width: 60%;
-        }
-
-        .inline-steps h2{
-            text-align: center;
-            float: none;
-            font-size: 15px;
-        }
-
-        .ny-area-list li a{
-            font-size: 11px;
-        }
-
-        .cover-locations-top .loc-title {
-        font-size: 16px;
-        margin-bottom: 10px;
-        }
-        .appointment-text-box h2{
-        font-size: 20px;
-        }
-
-        .appointment-text-box h6 {
-        font-size: 12px;
-        }
-
-
-       .banner-pricing-cover .price-text-headline h2{
-        font-size: 15px;
-       }
-
-       .banner-pricing-cover .price-text-headline h6{
-        font-size: 12px;
-       }
-
-       .card-expand h4{
-        font-size: 14px;
-       }
-
-       .pricing-inner-1 .left-inner .device-img{
-        width: 35%;
-       }
-       .pricing-list li .pr-item{
-        font-size: 12px;
-       }
-
-       .sell-ipad-steps img{
-        width: 35%;
-       }
-
-       .sell-ipad-steps {
-            padding-left: 5px;
-        padding-right: 5px;
-        border-top: 1px solid #eee;
-        padding-top: 15px;
-        }
-
-        #sell-ipad-header .txt-header h1{
-        font-size: 17px;
-        }
-        #sell-ipad-header .txt-header h2{
-        font-size: 13px;
-        }
-
-        .sell-left-side p {
-            font-size: 12px;
-        }
-
-        .sell-left-side h2{
-            font-size: 18px;
-        }
-
-        .sell-left-side h5{
-            font-size: 15px;
-            margin-bottom: 20px;
-        }
-
-        #sell-device-section .sell-text-top h2{
-            font-size: 18px;
-        }
-
-        .ipad-devices-list .text-box-top h2{
-            font-size: 18px;
-        }
-
-          #repair-list .text-title h2{
-           
-            font-size:20px;
-        }
-
-        #repair-list .text-title h4{
-            font-size: 11px;
-            font-weight: 400;
-            text-align: center;
-        }
-
-        #repair-list .list-repairs-link{
-        margin-bottom: 20px;
-        background-color: #fafafa;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        border: 1px solid #dedbdb;
-        /* background: url(../img/blue-lines.png); */
-        /* background-repeat: no-repeat; */
-        transition: all .2s ease-in-out;   
-        }
-
-        .cover-repair{
-            height: auto;
-            padding-bottom: 40px;
-        }
-
-        #home-section{
-        background-color: #fafafa;
-        padding-top:20px;
-        padding-bottom: 20px;
-        margin-top: 120px;
-        /* background-image: url(../img/screen-page-banner-top.jpg); */
-        width: 100%;
-        height: auto;
-        background-size: cover;
-        background-position: center top;
-        /*background-size: cover;
-        background-repeat: no-repeat;
-        padding: 170px 0 150px;*/
-        }
-
         .cta-buttons-home .btn-demo-home span {
         font-size: 11px;
         }
@@ -4359,6 +3591,244 @@
 
         .top-header .right-button .phone-info{
             margin-left: 0;
+        }
+
+        .carousel-caption h2{
+            font-size: 20px;
+        }
+
+        .carousel-caption p{
+            font-size: 14px;
+        }
+
+        .carousel-caption .btn-action-go {
+        font-size: 11px;
+        margin-top: 1%;
+        }
+
+        #carousel-2 {
+        background: #fafafa;
+        padding-top: 156px;
+
+        }
+
+        .carousel-caption {
+        top: -5%;
+        left: 2%;
+        }
+
+        #our-services .box-text h2 {
+        font-size: 23px;
+        }
+
+        #our-services .box-text h2 img {
+        margin-top: -38px;
+       
+        }
+
+        #our-services .box-text p {
+        font-size: 14px;
+        }
+
+        .logo-carousel .carousel-item p{
+        font-size: 15px;
+        }
+
+        .adress-nav{
+            padding-left: 0;
+        }
+
+        .logo-left li .copy{
+            font-size: 9px;
+            text-align: center;
+        }
+
+        .adress-nav li p{
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .social-footer li {
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+         
+        }
+
+        .top-header .text-right{
+        text-align:left !important;
+        }
+
+        .customer-section .text-box-cust h2{
+            font-size: 25px;
+        }
+
+        .customer-section .text-box-cust h4{
+            font-size: 16px;
+        }
+
+        .adress-nav h3{
+            font-size: 11px;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer .logo-left li a img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #contact-section .cnt-text .cnt-subtitle{
+            font-size: 24px;
+        }
+
+        #contact-section .cnt-text h3{
+            font-size: 15px;
+        }
+
+        .box-contact .icons-contact {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 18%;
+        }
+
+        #get-quote-section .quote-text-top h2{
+            font-size: 24px;
+        }
+
+        #get-quote-section .quote-text-top h6{
+            font-size: 15px;
+        }
+
+        .box-contact p{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .contact-us .contact-form {
+        font-size: 15px;
+        color: #728292;
+        background: transparent;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        font-family: "Roboto Condensed";
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        }
+
+        .box-info {
+        display: block;
+        float: left;
+        border: 1px solid #eee;
+        background-color: #fdfdfd;
+        max-width: 100%;
+        margin-right: 20px;
+        padding-top: 25px;
+        margin-bottom: 20px;
+        }
+
+        .box-info p {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top:5px;margin-bottom: 5px;
+        font-family: "Roboto Condensed";
+        font-weight: 400;
+        color: #131f28;
+        font-size: 17px;
+        }
+
+        #section-information .cnt-text .cnt-subtitle{
+            font-size: 24px;
+        }
+
+        .box-info .skew-txt-info a{
+            font-size: 14px;
+        }
+
+        .box-info .icons-info {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 20%;
+        }
+
+        .box-contact{
+            margin-bottom: 15px;
+        }
+
+        .box-contact .skew-txt-bck a {
+        font-size: 14px;
+        }
+
+        footer {
+        background: #131f28 !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+        .customer-section .impression-1 {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #efeeee;
+        width: 99%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #fff url(../img/quote.png) no-repeat left;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        height: 285px;
+        }
+
+        .social-footer{
+            padding-left: 0;
+        }
+
+        .social-footer h3{
+            font-size: 11px;
+        }
+
+        .customer-section .impression-2 {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #efeeee;
+        width: 97%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #fff url(../img/quote.png) no-repeat left;
+        margin-bottom: 15px;
+        margin-top: 60px;
+        height: 285px;
+        }
+
+        .customer-section .impression-2 h6{
+            font-size: 14px;
+        }
+
+        .customer-section .impression-2 .name-cst{
+            font-size: 16px;
+        }
+
+        .customer-section .impression-1 h6{
+            font-size: 14px;
+        }
+
+        .customer-section .impression-1 .name-cst{
+            font-size: 16px;
+        }
+
+        .top-social{
+            padding-left: 0;
         }
 
 
