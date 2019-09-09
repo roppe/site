@@ -447,6 +447,49 @@
     background: #646465;
     }
 
+
+    #top-us{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-color: #fafafa;
+    }
+
+    #top-us h2{
+        font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #131f28;
+    font-family: "Roboto Condensed";
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+
+    }
+
+    #top-us p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align:center;
+    color: #515151;
+    font-family: "Roboto Condensed";
+     margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+    #top-us p a{
+    font-size: 18px;
+    font-weight: 700;
+    text-align:center;
+    color: #515151;
+    font-family: "Roboto Condensed";
+   
+    }
+
     #our-services{
     padding-top: 30px;
     padding-bottom:60px;
@@ -588,7 +631,7 @@
     }
 
     .about-left-side .text-inner p{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
     color: #ffffff;
@@ -1574,12 +1617,12 @@
     .masthead-services .text-box{
     float: left;
     display: block;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 7%;
     }
 
     .masthead-services .text-box h2{
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1646,11 +1689,22 @@
     font-weight: 400;
     color: #3a3a38;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+     }
+
+    .first-service-1 .list-text{
+        padding-left: 60px;
+    }
+
+     .first-service-1 .list-text li{
+        font-size: 19px;
+         font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #3a3a38;
      }
 
 
@@ -1918,12 +1972,12 @@
     .masthead-contact .text-box{
     float: left;
     display: block;
-    padding-top: 7%;
+    padding-top: 4%;
     padding-bottom: 7%;
     }
 
    .masthead-contact .text-box h2{
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 30px;
