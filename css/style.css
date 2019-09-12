@@ -14,7 +14,7 @@
 	.navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
    	display: block !important;
-    color: #ce2027!important;
+    color: #76cb53!important;
     border:0;
     }
 
@@ -712,6 +712,22 @@
     margin-bottom: 0;
     }
 
+      .banner-call-1 .box-content-bnr h5 a {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom:0px;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    }
+
+       .banner-call-1 .box-content-bnr h5 a:hover{
+        text-decoration: none;
+        color: #e6e3e3;
+       }
+
   .banner-call-1 .box-content-bnr .number-line {
     border: 1px solid #f1f3f1;
     display: block;
@@ -1336,6 +1352,28 @@
     display: block;
     margin-bottom: 0;
     }
+
+
+    .box-contact .skew-txt-bck a {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color:#ffffff;
+    text-align: center !important;
+    font-size:23px;
+    display:inline-block;
+    letter-spacing: 1px;
+    padding-top:6px;padding-bottom:6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+    }
+
+    .box-contact .skew-txt-bck a:hover{
+        text-decoration: none;
+        color: #fafafa;
+    }
+
 
     .box-contact .skew-txt-bck a{
     font-family: "Roboto Condensed";
@@ -3493,6 +3531,39 @@
 	
 	@media (max-width: 575.98px) { 
 	   	
+        #top-us h2{
+            font-size: 21px;
+            margin-top: 5px;
+        }
+
+        #top-us p{
+            text-align: left;
+            font-size: 14px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+          #top-us p a{
+            font-size: 14px;
+          }
+
+          .first-service-1 .list-text li{
+            font-size: 15px;
+          }
+
+          .banner-call-1 .box-content-bnr h5 a{
+            font-size: 26px;
+          }
+
+          .cover-gallery .text-box h2, .masthead-services .text-box h2, .masthead-test .text-box h2, .masthead-contact .text-box h2{
+            font-size: 21px;
+          }
+
+          .top-header .right-button .email-info{
+            margin-right: 10px;
+          }
+
+
         .list-repairs-link {
         margin-bottom: 2px;
         background-color: #fafafa;
@@ -3645,21 +3716,23 @@
         }
 
         .carousel-caption h2{
-            font-size: 20px;
+            font-size: 16px;
         }
 
         .carousel-caption p{
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .carousel-caption .btn-action-go {
         font-size: 11px;
         margin-top: 1%;
+        padding-top: 4px;padding-bottom: 4px;
+        padding-left: 10px;padding-right: 10px;
         }
 
         #carousel-2 {
         background: #fafafa;
-        padding-top: 156px;
+        padding-top: 182px;
 
         }
 
