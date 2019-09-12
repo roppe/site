@@ -233,6 +233,13 @@
 
     }
 
+     .top-header .right-button .phone-info a{
+         font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+     }
+
     .top-header .right-button .phone-info .fa{
     margin-right: 7px;
     font-size: 18px;
@@ -249,6 +256,14 @@
     float: right;
     margin-left: 40px;
     padding-top: 5px;
+    }
+
+    .top-header .right-button .email-info a{
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+   
     }
 
     .top-header .right-button .email-info .fa{
@@ -2132,6 +2147,20 @@
     display:inline-block;
     letter-spacing: 1px;
     padding-top:6px;padding-bottom:6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+    }
+
+    .box-info .skew-txt-info h3 a{
+    font-family: "Roboto Condensed";
+    font-weight:700;
+    color: #131f28;
+    text-align: center !important;
+    font-size:16px;
+    display:inline-block;
+    letter-spacing: 1px;
     margin-left: auto;
     margin-right: auto;
     display: block;
