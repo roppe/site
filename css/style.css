@@ -2408,12 +2408,25 @@
     color: #d5d2d2 !important;
     text-align:left;
     display: block;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 3px;
     letter-spacing: 1px;
     margin-bottom: 3px ;
     margin-top:15px; 
     }
+
+     .logo-left li .copy a{
+    font-family: "Roboto Condensed";
+    font-weight:500;
+    color: #d5d2d2 !important;
+   
+    font-size: 12px;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 3px ;
+    margin-top:15px; 
+    }
+
 
 
 
