@@ -32,17 +32,30 @@
     padding-left: 0;padding-right: 0;
     padding-top: 0;
     border-bottom: 1px solid #eee;
+    padding-bottom:0;
     }
 
-    .main-navigation .nav-list .nav-link{
+    .nav-list .nav-item{
+        margin-right: 20px;
+        border-right: 1px solid #dedddd;
+        padding-bottom: 5px;
+
+
+    } 
+
+    .nav-list .nav-item:last-child{
+        border-right: none;
+    }
+
+    .nav-list .nav-link{
     font-family: "Open Sans";
     font-weight:600;
     color: #151515;
     text-transform:uppercase;
     font-size: 13px;
     letter-spacing: 1px !important;
-    margin-right:5px;
-    margin-top: 10px;
+    margin-right:10px;
+    margin-top: 5px;
     text-align: center;
     }
 
@@ -208,6 +221,32 @@
     padding-top:7px;
     color: #313433;
     font-weight: 700;
+    }
+
+    .nav-list{
+        padding-left: 100px;
+    }
+
+    .top-navigation{
+        border-top: 1px solid #eee;
+    }
+
+
+    .main-navigation .call-us{
+        display: block;
+        float: right;
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-family: "Open Sans";
+        background-color: #d7211e;
+        padding-left: 20px;padding-right: 20px;
+        border: none;
+    }
+
+    .main-navigation .call-us .fa{
+        margin-right: 10px;
     }
 
     /* Slider */
@@ -399,12 +438,24 @@
     background-color: #fff;
     }
 
+
+    .info-left-side{
+    background-color: #fdfcfc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1.5px solid #d7211e;
+    padding-left: 30px;
+    padding-right: 20px;
+    position: relative;
+
+    }
+
     .info-left-side h2{
      font-family: "Open Sans";
     font-weight: 700;
     color:#151515;
-    font-size: 35px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
     margin-top:10px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -421,65 +472,46 @@
     text-transform: uppercase;
     background-color: #d7211e;
     border-radius: 10px;
-    padding-top: 8px;padding-bottom: 8px;
+    padding-top: 10px;padding-bottom: 10px;
     padding-left: 20px;
     width: 45%;
+    position: absolute;
+    top: -25px;
+    left:30%;
     }
 
     .info-left-side  h3 {
     font-family: "Open Sans";
     font-weight: 500;
     color: #151515;
-    font-size: 20px;
-    text-align: left;
+       font-size: 18px;
+    text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
     }
 
-    .info-left-side .mini-banner h6{
-    font-family: "Open Sans";
-    font-weight: 600;    
-    color: #151515; 
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 0;
-    float: left;
-    }
 
-    .info-left-side .mini-banner h6 a{
-    font-family: "Open Sans";
-    font-weight: 700;    
-    color: #151515; 
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 0;
-    
-    }
-
-    .info-left-side .mini-banner{
-    border-bottom: 1px solid #d8d4d4;
-    border-top: 1px solid #d8d4d4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    }
-
- 
-
-    .info-left-side .mini-banner .link{
+    .info-left-side .link{
     font-family: 'Open Sans';
-    font-weight: 700;
-    color: #d7211e; 
-    font-size: 13px;
+    font-weight: 600;
+    background-color: #d7211e; 
+    color: #ffffff;
+    font-size: 14px;
     margin-top: 5px;
-    text-align: right;
-    width: 100%;
     display: block;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
+    width: 180px;
+    padding-top: 8px;padding-bottom: 8px;
+    position: absolute;
+    left:35%;
+    bottom: -25px;
+    text-align: center;
+    border-radius: 3px;
     }
 
-    .info-left-side .mini-banner .link .fa{
+    .info-left-side .link .fa{
     margin-left: 5px;
     }
 
@@ -498,6 +530,88 @@
     margin-right: auto;
     margin-top: 25px;
     }
+
+
+    .layout-new{
+    border-radius: 30px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: relative;
+    border: 2px solid #eee;
+    margin-top: 40px;
+    }
+
+   
+
+    .layout-new h2{
+     font-family: "Open Sans";
+    font-weight: 700;
+    color: #151515;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+
+    }
+
+    .layout-new .used-pic{
+        position: absolute;
+        left:-50px;
+        top:20px;
+    }
+
+    .layout-new  h5{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #d7211e;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    }
+
+    .layout-new .new-used{
+    margin-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    }
+
+    .layout-new .new-used p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #151515;
+    font-size: 14px;
+    text-align: left;
+    }
+
+     .layout-new .new-used .link-btn{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: #d7211e;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    width: 195px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+       left: 25%;
+    bottom: -40px;
+    text-align: center;
+    border-radius: 3px;
+     }
+
+      .layout-new .new-used .link-btn .fa{
+        margin-left: 10px;
+      }
 
 
     /* Banner call us now  */
@@ -707,6 +821,7 @@
     list-style-type: none;
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 20px;
 
     }
 
@@ -850,7 +965,7 @@
     padding-bottom:40px;
        /* background-image: url(../img/line-pattern.png);*/
     background-repeat: repeat-x;
-    border-top: 1px solid #eee;
+    margin-top: 75px;
     }
 
     #faq-section-ta .text-faq-box{
@@ -947,7 +1062,7 @@
 
     .banner-cover-top{
     padding-bottom:70px;
-    margin-top:70px;
+    margin-top:120px;
     background-color: #eee;
     /*background-image: url(../img/ny-gray-background.png);*/
     width: 100%;
@@ -1033,6 +1148,60 @@
     }
 
 
+    /* lezout  but*/
+
+     #buy-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #eee;
+        border-radius: 30px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,.1);
+    padding-bottom: 25px;
+    margin-top: 20px;
+    }
+
+    #buy-content .buy-content{
+    position: relative;
+    display: block; 
+    width: 100%;
+    margin-bottom:15px;
+    }
+
+     #buy-content .buy-content h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #151515;
+    font-size: 26px;
+    text-align: left;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left: 10px;
+    }
+
+     #buy-content .buy-content h3{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:20px;
+    background-color:#D7211E;
+    padding-bottom: 7px;padding-top: 7px;
+    width: 60%;
+    border-radius: 5px;
+
+    }
+
+
+     #buy-content .buy-content  p {
+     font-family: "Open Sans";
+    font-weight: 500;
+     color: #151515;
+    font-size: 14px;
+    text-align: left;
+    }
+
 
 
 
@@ -1092,6 +1261,9 @@
     width: 100%;
     padding-left: 0;
     margin-top: 10px;
+
+    border-radius: 30px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
     }
 
     .product-list li{
@@ -1185,7 +1357,7 @@
 
     #section-how-it-work{
     padding-bottom:25px;
-    padding-top:25px;
+    padding-top:15px;
     border-bottom: 1px solid #fafafa;
     background-color: #ffffff;
         /*background-image: url(../img/light-bck.png);*/
@@ -1213,11 +1385,63 @@
     margin-top: -26px;
     }
 
+
+
+    #new-section-sell{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: relative;
+    border: 2px solid #eee;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    }
+
+    #new-section .new-content{
+    position: relative;
+    display: block; 
+    width: 100%;
+    margin-bottom:15px;
+    }
+
+    #new-section-sell .new-content-sell h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #151515;
+    font-size: 26px;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:10px;
+    padding-left: 10px;
+    }
+
+    #new-section-sell .new-content-sell h3{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #151515;
+    font-size: 16px;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:20px;
+    }
+
+    #new-section-sell .new-content-sell  p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #151515;
+    font-size: 14px;
+    text-align: left;
+    }
+
   
     
     .inner-how-it-work-1 {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    /*padding-top: 30px;*/
+    padding-bottom: 10px;
+    margin-top: 25px;
 
     }
 
@@ -1566,41 +1790,30 @@
 
 
     .section-how-it-work {
-    padding-bottom: 25px;
-    padding-top: 25px;
-    border-bottom: 1px solid #fafafa;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #eee;
     }
 
-    .section-how-it-work .box-text-6 h2 {
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 35px;
-    text-align: center;
-    color: #151515;
-    font-family: 'Open Sans', sans-serif;
-    }
 
     .section-how-it-work .how-steps {
        display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #eee;
-    height: 215px;
-    padding-top: 15px;
+        margin-bottom:5px;
+  
+    padding-top:5px;
     }
 
     .section-how-it-work .how-steps .headline{
         font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color:#151515;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -1611,6 +1824,16 @@
     font-weight: 500;
     color: #151515;
     font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+
+    .section-how-it-work .how-steps h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #d7211e;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 0;
     }
