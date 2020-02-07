@@ -15,8 +15,14 @@
     color: #ce2027!important;
     border:0;
     }
+        
+    .nav-top{
+    display: block;
+    }
 
-    .main-navigation .logo-header{
+    
+
+     .logo-header{
     display: block;
     float: left;
     width: 310px !important;height:65px;
@@ -232,20 +238,21 @@
     }
 
 
-    .main-navigation .call-us{
-        display: block;
-        float: right;
-        margin-top: 20px;
-        font-size: 18px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        font-family: "Open Sans";
-        background-color: #d7211e;
-        padding-left: 20px;padding-right: 20px;
-        border: none;
+    .top-call .call-us{
+    display: block;
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: #d7211e;
+    padding-left: 20px;padding-right: 20px;
+    border: none;
+    width: 200px;
     }
 
-    .main-navigation .call-us .fa{
+    .top-call .call-us  .fa{
         margin-right: 10px;
     }
 
@@ -344,6 +351,80 @@
     float: left;
     
     }
+
+       .fixed-top {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+
+
+    .top-call{
+    float: right;
+    display: block;
+    width: 100%;
+    }
+
+    .shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 55px !important;
+    background-color: #eee;
+        position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+
+
+
+    .shrink .fixed-top {
+
+    }
+
+    .shrink .nav-top{
+    display: none;
+    }
+
+    .shrink .nav-list{
+
+
+    }
+
+    .nav-list .nav-phone{
+    display: none;
+    }
+
+    .nav-list .nav-phone .call{
+    display: none;
+
+    }
+
+    .shrink .nav-phone {
+    display: block;
+    }
+
+    .shrink .nav-link{
+    margin-top: 10px;
+    }
+
+    .shrink .nav-phone .call{
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: #d7211e;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    display: block;
+    }
+
+   
 
 
   /* STYLE FOR HOME TOP SECTION */
@@ -1062,7 +1143,7 @@
 
     .banner-cover-top{
     padding-bottom:70px;
-    margin-top:120px;
+    margin-top:47px;
     background-color: #eee;
     /*background-image: url(../img/ny-gray-background.png);*/
     width: 100%;
