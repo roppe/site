@@ -29,6 +29,7 @@
     background:url(../img/logo-newjersey-restaurant.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
+    margin-left: 100px;
 
     }
 
@@ -242,14 +243,15 @@
     display: block;
     float: right;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-weight: 600;
     font-family: "Open Sans";
     background-color: #d7211e;
     padding-left: 20px;padding-right: 20px;
     border: none;
-    width: 200px;
+        width: 190px;
+    margin-right: 80px;
     }
 
     .top-call .call-us  .fa{
@@ -354,7 +356,7 @@
 
        .fixed-top {
     position: fixed;
-    top: 75px;
+    top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -365,6 +367,17 @@
     float: right;
     display: block;
     width: 100%;
+    }   
+
+
+   .shrink {
+        display: block;
+        width: 100%;
+    }
+
+
+    .shrink  .shrink {
+        display: none;
     }
 
     .shrink {
@@ -412,7 +425,7 @@
     }
 
     .shrink .nav-phone .call{
-    margin-top: 8px;
+    margin-top: 11px;
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -423,6 +436,10 @@
     border: none;
     display: block;
     }
+
+     .shrink .nav-phone .call .fa{
+        margin-right: 7px;
+     }
 
    
 
@@ -1143,7 +1160,7 @@
 
     .banner-cover-top{
     padding-bottom:70px;
-    margin-top:47px;
+    margin-top:120px;
     background-color: #eee;
     /*background-image: url(../img/ny-gray-background.png);*/
     width: 100%;

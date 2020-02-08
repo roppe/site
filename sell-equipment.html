@@ -32,24 +32,23 @@
 
     <!-- Navigation on Top -->
  
-     <div class="container nav-top">
-            <div class="row">
-                    
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 top-logo">
-                        <a class="navbar-brand js-scroll-trigger logo-header" href="index.html"></a>
-                </div>
+     <nav class="navbar navbar-expand-lg fixed-top main-navigation" id="mainNav">
+            
+           
+                <div class="row nav-top">
                         
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 top-call">
-                     <a class="btn btn-primary call-us" href="#" role="button"><i class="fa fa-phone"></i><span>(917)123-4567</span></a>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 top-logo">
+                            <a class="navbar-brand js-scroll-trigger logo-header" href="index.html"></a>
+                    </div>
+                            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 top-call">
+                         <a class="btn btn-primary call-us" href="#" role="button"><i class="fa fa-phone"></i><span>(917)123-4567</span></a>
+                    </div>
+                           
                 </div>
-                       
-            </div>
                
-    </div>
-  
- 
-    <nav class="navbar navbar-expand-lg fixed-top main-navigation" id="mainNav">
-                 
+        
+
 
             <div class="container-fluid top-navigation">
                 <div class="row justify-content-center">
@@ -91,7 +90,6 @@
                 </div>
             </div>
     </nav>
-
 
     <div class="banner-cover-top" style="background-image:url(img/nj-buy-cover.jpg)";="">
       <div class="container">
@@ -318,7 +316,7 @@
       <script>
             $(document).on("scroll", function(){
 
-            if ($(document).scrollTop() > 150){
+            if ($(document).scrollTop() > 90){
                 $(".main-navigation").addClass("shrink");
             } else {
                 $(".main-navigation").removeClass("shrink");
