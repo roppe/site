@@ -649,16 +649,15 @@
     font-size: 30px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
     text-transform: uppercase;
     width: 100%;
+
 
     }
 
     .layout-new .used-pic{
-        position: absolute;
-        left:-50px;
-        top:20px;
+     
     }
 
     .layout-new  h5{
@@ -1272,7 +1271,7 @@
     font-size: 26px;
     text-align: left;
     margin-top:10px;
-    margin-bottom:10px;
+    margin-bottom:30px;
     padding-left: 10px;
     }
 
@@ -1407,7 +1406,7 @@
     font-family: "Open Sans";
     font-weight: 600;
     color: #151515;
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
     }
 
@@ -1420,7 +1419,7 @@
     }
 
     #we-buy-section{
-        padding-top: 40px;padding-bottom: 40px;
+        padding-top: 20px;padding-bottom: 40px;
     }
 
     #we-buy-section .tx-box{
