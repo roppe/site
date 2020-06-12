@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+
+      <title>Shiny</title>
+
+      <link rel="icon" href="images/logo.png" type="image/png">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      <meta charset="UTF-8">
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+      <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+      <link rel="stylesheet" type="text/css" href="css/hover.css" />
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+      <script type="text/javascript" src="js/custom.js"></script>
+
+      <script type="text/javascript" src="js/wow.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+      <style>label.error { color: #f00; position: absolute; width: 300px !important; float: left; display: block;    bottom: 6px;    max-width: 300px;     bottom: -27px;    left: 0; } .form-group { position: relative; }</style>
+   </head>
+
+   <body>
+
+     <nav class="navbar navbar-default navbar-me mynav stickyMenu clearfix">
+
+         <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+               <span class="sr-only">Toggle navigation</span>
+
+               <span class="icon-bar top-bar"></span>
+
+               <span class="icon-bar middle-bar"></span>
+
+               <span class="icon-bar bottom-bar"></span>
+
+               </button>
+
+               <a class="" href="index.html"><img src="images/logo.png" class="img-responsive logo" /></a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+               <ul class="nav navbar-nav navbar-left">
+
+                  <li><a href="index.html">Home</a></li>
+
+                  <li><a href="services.html">Our Services</a></li>
+
+                  <li><a href="process.html">Process</a></li>
+
+                  <li><a href="pricing.html">Pricing</a></li>
+
+
+                  <li><a href="before-and-after.html">Before & After</a></li>
+
+                  <li class="active"><a href="about.html">About Us</a></li>
+
+      
+
+               </ul>
+
+
+
+               <ul class="nav navbar-nav navbar-right">
+
+
+                  <li class="dropdown">
+
+                     <a href="locations-we-services.html" class="dropdown-toggle disabled" data-toggle="dropdown">Locations We Service <span class="fa fa-angle-down"></span></a>
+
+                     <ul class="dropdown-menu">
+
+                        <li><a href="nyc.html">NYC</a></li>
+
+                        <li><a href="brooklyn.html">Brooklyn</a></li>
+
+                        <li><a href="queens.html">Queens</a></li>
+
+                        <li><a href="long-island.html">Long Island</a></li>
+
+                     </ul>
+
+                  </li>
+
+                     <li><a href="" ><strong class="blue"><i class="fa fa-phone"></i> (877) 927-0598 </strong></a></li>
+
+                   <li class="active"><a href="contact.html" class="bordergreen blue"><strong>Request Free Price Estimate</strong></a></li>
+
+               </ul>
+
+
+
+
+
+            </div>
+
+            <!-- /.navbar-collapse -->
+
+         </div>
+
+         <!-- /.container-fluid -->
+
+      </nav>
+
+      <!-- header -->       
+
+     
+
+   <p><img src="images/cover-banner-contact.jpg" class="img-responsive width100" /></p>
+
+
+
+    <div class="contact-us">
+
+      <form method="post" action = 'submit-handler.php' enctype="multipart/form-data" id = "contactformmain" novalidate="novalidate">
+
+        <div class="container">
+
+            
+
+            <h3> Get a Free Price Estimate from Shiny Tub Reglazing</h3>
+
+     
+
+
+
+            <div class="row">
+
+              
+
+                <div class="col-sm-6 col-md-3">
+
+                  <div class="form-group">
+
+                    <label for="usr">Full Name:</label>
+
+                    <input type="text" class="form-control" placeholder="Name" name="userName" required/>
+
+                  </div>
+
+                </div>
+
+
+
+                <div class="col-sm-6 col-md-3">
+
+                  <div class="form-group">
+
+                    <label for="usr">Phone Number:</label>
+
+                    <input type="text" class="form-control" placeholder="Phone" name="phone" required/>
+
+                  </div>
+
+                </div>
+
+
+
+                <div class="col-sm-6 col-md-3">
+
+                  <div class="form-group">
+
+                    <label for="usr">E-Mail:</label>
+
+                    <input type="text" class="form-control" placeholder="Email" name="userEmail"/>
+
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+
+                  <div class="form-group">
+
+                    <label for="usr">Zip Code:</label>
+
+                    <input type="text" class="form-control" placeholder="Zip Code" name="zip" />
+
+                  </div>
+
+                </div>
+
+
+
+                
+
+
+
+            </div> <!-- row -->
+
+
+
+
+
+            <h4>Surface type:</h4>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Tub" name="SurfaceType[]">Tub</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Tile" name="SurfaceType[]">Tile</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Sink" name="SurfaceType[]">Sink</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Claw Foot" name="SurfaceType[]"> Claw Foot</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Counter Top" name="SurfaceType[]"> Counter Top</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Jacuzzi" name="SurfaceType[]">Jacuzzi</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Regrout" name="SurfaceType[]">Regrout</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Caulking" name="SurfaceType[]">Caulking</label>
+
+                <label class="checkbox-inline"><input type="checkbox" value="Other" name="SurfaceType[]">Other</label>
+
+                <hr />
+
+
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+                        <h5>Has the tub / surface been reglazed before?</h5>
+
+                        <label class="checkbox-inline"><input type="radio" value="Yes" name="ReglazedBefore">Yes</label>
+
+                        <label class="checkbox-inline"><input type="radio" value="No" name="ReglazedBefore">No</label>
+
+                        <label class="checkbox-inline"><input type="radio" value="Unknown" name="ReglazedBefore">Unknown</label>
+
+                    </div>
+
+
+
+                    <div class="col-sm-6">
+
+                          <h5>Is the tub covered with:</h5>
+
+                        <label class="checkbox-inline"><input type="radio" value="Curtains" name="TubCovered">Curtains</label>
+
+                        <label class="checkbox-inline"><input type="radio" value="Glass door" name="TubCovered">Glass door</label>
+
+                        <label class="checkbox-inline"><input type="radio" value="Unknown" name="TubCovered">Unknown</label>
+
+                    </div>
+
+                </div> <!-- row -->
+
+                <hr />
+
+
+
+                <div class="row">
+                    
+                     <div class="col-sm-4">
+
+                          <h5>Do you need caulking?</h5>  
+
+                          <label class="checkbox-inline"><input name="Caulking" value="Yes"  type="radio">Yes</label>
+
+                          <label class="checkbox-inline"><input name="Caulking" value="No"  type="radio">No</label>
+
+                          <label class="checkbox-inline"><input name="Caulking" value="Unknown"  type="radio">Unknown</label>
+
+                    </div>
+                   
+
+                    <div class="col-sm-4">
+
+                          <h5>Do you need Regrouting?</h5>  
+
+                          <label class="checkbox-inline"><input name="Regrouting" value="Yes" type="radio">Yes</label>
+
+                          <label class="checkbox-inline"><input name="Regrouting" value="No" type="radio">No</label>
+
+                          <label class="checkbox-inline"><input name="Regrouting" value="Unknown" type="radio">Unknown</label>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                          <h5>Do you need Anti Slip Application?</h5>  
+
+                          <label class="checkbox-inline"><input name="AntiSlip" value="Yes" type="radio">Yes</label>
+
+                          <label class="checkbox-inline"><input name="AntiSlip" value="No" type="radio">No</label>
+
+                          <label class="checkbox-inline"><input name="AntiSlip" value="Unknown" type="radio">Unknown</label>
+
+                    </div>
+
+                </div> <!-- row -->
+                <hr />
+                <div class="form-group">
+
+                  <label for="upload" class="upload-label">Please Attach / Provide a few images of your items (if the items are heavily damaged provide up close photos) :</label>
+
+                  <input type="file" class="form-control" id="upload" name="attachment[]" multiple="multiple">
+
+                </div>
+
+              
+
+                <div class="form-group">
+
+                  <label for="comment">Add Comment:</label>
+
+                  <textarea class="form-control" rows="4" id="comment" name="comments"></textarea>
+
+                </div>
+
+
+
+                <!-- <h5></h5> -->
+
+
+               <!-- <h5><div class="g-recaptcha" data-sitekey="6Le-YasUAAAAAAMeNClnSazMk3WxlA6fUOhY2EfT"></div>
+</h5> --> 
+                
+
+                <hr />
+
+                <p class="text-center"><button type="submit" class="btn btn-success btn-lg btn-submit">Submit For Free Quote</button></p>
+
+
+
+
+
+        </div>
+      </form>
+
+    </div>
+
+  
+
+ 
+
+      
+
+      
+
+     
+
+      <footer class="footer-bs">
+
+         <div class="container">
+
+            <div class="row">
+
+               <div class="col-sm-4 col-md-4 footer-brand wow fadeInLeft">
+
+                  <p>&nbsp;</p>
+
+                  <img src="images/logo-footer.png" class="foot-logo" />
+
+                  <p class="companyDetail">We offer tub reglazing, tile refinishing, bathtub repainting, and various other services. Reach out today with any questions you might have
+
+                  </p>
+
+               </div>
+
+               <div class="col-sm-4 col-md-offset-1 col-md-3 footer-nav wow fadeInUp">
+
+                  <div class="whiteline"></div>
+
+                  <h4>IMPORTANT LINKS</h4>
+
+                  <ul class="list">
+
+                     <li><a href="index.html">Home</a></li>
+
+                     <li><a href="services.html">Our Services</a></li>
+
+                     <li><a href="pricing.html">Pricing</a></li>
+
+                    <li><a href="before-and-after.html">Before & After</a></li>
+
+                     <li><a href="about.html">About Us</a></li>
+
+                     <li><a href="#">Locations</a></li>
+
+                     <li><a href="contact.html">Contact Us</a></li>
+
+                     <li><a class="link-warranty" href="warranty- agreement.pdf" target="_blank">Warranty Agreement</a></li>
+
+                  </ul>
+
+                 
+
+               </div>
+
+               <!-- col4 -->
+
+               <div class="col-sm-3 col-md-4 wow fadeInDown">
+
+                  <div class="whiteline"></div>
+
+                  <h4>FOLLOW US</h4>
+
+                  <br />
+
+                  <!--<h5 class="white mt30">GIVE US A CALL</h5>
+
+                     <h3 class="orange">+1-888-220-4820</h3>-->
+
+                  <p class="socialNet"> 
+
+                  
+                     <a href="https://www.facebook.com/Shiny-Tub-Bathtub-and-Tile-Reglazing-370012797047799/" target="blank" class="hvr-sink"><img src="images/facebook-white.png" alt="fbwhite"></a> 
+                     
+                     <a href="https://www.google.com/maps/place/Shiny+Tub+Bathtub+and+Tile+Reglazing/@40.1213461,-75.9512345,7z/data=!4m8!1m2!2m1!1sshiny+tub+reglazing+nyc!3m4!1s0x89c2f7f2bbd369d5:0x94a08533407829dc!8m2!3d40.7056497!4d-73.9780035" class="hvr-sink"><img src="images/plus-white.png" alt="googlewhite"></span></a> 
+                     
+                     <a href="https://www.yelp.com/biz/shiny-tub-bathtub-and-tile-reglazing-new-york-2" class="hvr-sink" target="blank"><img src="images/yelp-white.png" alt="yelpwhite"></a>
+
+                  </p>
+
+                  <hr />
+
+                  <p class="f20"><span class="fa fa-envelope"> &nbsp;  info@ShinyTubReglazing.com</span></p>
+
+                  <p class="f20"><span class="fa fa-phone"> &nbsp; (877) 927-0598</span></p>
+
+               </div>
+
+            </div>
+
+            <!-- row -->
+
+            </div> <!-- container -->
+
+      </footer>
+
+      <div class="copyrights wow fadeInDown">
+
+      <div class="container">
+
+      <p>Copyright 2018 Shiny Tile and Tub Reglazing. All rights reserved</p> 
+
+      </div>
+
+      </div>
+
+      
+
+      <script type="text/javascript">
+
+         new WOW().init();
+
+         
+
+         //   $(function(){
+
+         //   $('.navbar').affix({
+
+         //     offset: {
+
+         //        Affix the navbar after scroll below header 
+
+         //       top: $(".mynav").outerHeight(true)}
+
+         //   });
+
+         // });
+
+
+
+         $(window).scroll(function() {
+
+         if($(this).scrollTop()>70) {
+
+          $( ".navbar-me" ).addClass("fixed-me");
+
+         } else {
+
+          $( ".navbar-me" ).removeClass("fixed-me");
+
+         }
+
+         });
+
+
+
+
+
+         $(document).ready(function(){
+
+    $('.customer-logos').slick({
+
+        slidesToShow: 10,
+
+        slidesToScroll: 1,
+
+        // margin:100,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        arrows: false,
+
+        dots: false,
+
+        pauseOnHover: false,
+
+        responsive: [{
+
+            breakpoint: 768,
+
+            settings: {
+
+                slidesToShow: 4
+
+            }
+
+        }, {
+
+            breakpoint: 520,
+
+            settings: {
+
+                slidesToShow: 3
+
+            }
+
+        }]
+
+    });
+
+});
+         $(document).ready(function(){
+          $("#contactformmain").validate({ // initialize the plugin
+                rules: {
+                    'userName': {
+                        required: true,
+                        minlength: 2
+                    },
+                    'phone': {
+                        required: true,
+                        minlength: 8
+                    },
+                    'userEmail': {
+                          required: true,
+                          email: true,
+                          minlength: 2
+                    },
+                    'SurfaceType[]': {
+                        required: true
+                    }
+                },
+                messages: {
+                      'userName': {
+                        required: "Please enter your name.",
+                        minlength: 2
+                    },
+                    'phone': {
+                        required: "Please enter your phone.",
+                        minlength: "Please enter valid phone number."
+                    },
+                    'userEmail': {
+                        required: "Please enter your email.",
+                        email: "Please enter your email.",
+                        minlength: "Please enter valid phone number."
+                    },
+                    'SurfaceType[]': {
+                        required: "Please enter Surface Type."
+                    }
+                }
+            });
+         });
+
+      </script>
+
+   </body>
+
+</html>
