@@ -1660,6 +1660,107 @@ Pricing table
   }
 
 
+  
+.content-lf img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt-con h1{
+    color: #4BA65A;
+    line-height: 44px;
+    margin-top: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.txt-con p{
+  color: #64656d;
+  line-height: 26px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.content-lf{
+  margin-top: 70px;
+  border: 1px solid #eee;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding-bottom:0;
+    padding-top:0;
+    padding-left: 20px;
+    padding-right:0;
+}
+
+.section-weserve{
+  margin-top: 40px;
+  border: 1px solid #eee;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding-bottom:35px;
+    padding-top:35px;
+    padding-left: 20px;
+    padding-right:25px;
+}
+
+.section-weserve h2{
+  color: #4BA65A;
+    
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.list-houston{
+  display: block;
+  padding-left: 30px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.list-houston li{
+  display:block;
+  float: left;
+  border:1px solid #dad8d8;
+  margin-right: 15px;
+  padding-top: 9px;padding-bottom: 9px;
+  padding-left: 10px;padding-right:10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.list-houston li a{
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+ color: #64656d;
+ text-decoration: none;
+}
+
+.list-houston li a:hover{
+ 
+  color: #4BA65A;
+}
+
+
+ 
+
+
+
   /* Before and after page */
 
   .be-af-gallery{
@@ -2664,7 +2765,216 @@ transform:rotate(-45deg);
 }
 
 
+.location-banners{
+  position: relative;
+  padding: 0;
+}
 
+.top-text{
+  width: 60%;
+  display: block;
+  /*background-color:#4BA75A; */
+
+  background-color:rgba(75,167,90,0.9);
+  position: absolute;
+  bottom:-20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: 20%;
+}
+
+.top-text h2{
+  color: #fff;
+  text-align:center;
+  width: 100%;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+}
+
+
+.top-text h2 span{
+  color: #fff;
+  text-align:center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  
+}
+
+.top-text .border-line{
+  display: block;
+  width: 30%;
+  border:1px solid #fafafa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.top-text h6{
+  color: #fff;
+  text-align:center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top:20px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+}
+
+.top-text h6 a{
+  color: #fff;
+  text-align:center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top:20px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+}
+
+
+.top-text h6 a .fa{
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.left-1-location img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-inner-loc h1{
+    color: #4BA65A;
+    line-height: 44px;
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text-inner-loc p{
+  color: #64656d;
+  line-height: 26px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: left;
+}
+
+.left-1-location{
+  margin-top: 70px;
+  border: 1px solid #eee;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.other-services-loc{
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+  margin-top: 40px;
+  margin-bottom:40px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+
+ }
+
+ .other-services-loc .other-h2{
+  color: #4BA65A;
+  line-height: 44px;
+  margin-top:0;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+ }
+
+  .other-box h3{
+  color: #46A561;
+  padding-top: 9px;padding-bottom:9px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top:15px;
+  }
+
+  .other-box .des-tx p{
+  color: #64656d;
+
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-align: center;
+  }
+
+  .other-box .des-tx{
+  background-color: #fdfdfd;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+  padding-top: 15px;padding-bottom: 20px;
+  padding-left: 10px;padding-right: 10px;
+  }
+
+
+  .other-services-loc .btn-go{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans";
+    font-weight: 600;
+    width: 400px;
+    text-transform: uppercase;
+    background-color: #1D83F4;
+    color: #fff;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding-top: 18px;padding-bottom: 18px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+    .title-why{
+      color: #4BA65A;
+      line-height: 44px;
+      margin-top: 0;
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .location-features img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .location-features h6{
+      color: #64656d;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 5px 0 5px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    }
+
+    .location-features{
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+      padding-top: 15px;padding-bottom: 15px;
+    }
 
   .nyc-section{
   padding: 35px 0;
@@ -2912,22 +3222,39 @@ transform:rotate(-45deg);
 }
 
 .contact-us h3{
-  font-size:30px;
+  font-size:34px;
   font-weight: 600;
   margin-top: 30px;
   margin-bottom: 45px;
+  color:#449d44;
+  font-weight: 600;
+  font-family:"Open Sans";
+  text-align: center;
 }
 
 .contact-us h4{
-  font-size:19px;
+  font-size:18px;
   font-weight: 600;
+  font-family:"Open Sans";
+  border-left:6px solid #449d44;
+  padding-left: 10px;
 }
 
 .contact-us h5{
-  font-size:19px;
+  font-size:18px;
   font-weight: 600;
   margin-bottom: 15px;
+  font-family:"Open Sans";
+  border-left:6px solid #449d44;
+  padding-left: 10px;
 }
+
+ .contact-question{
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+  padding-top: 15px;padding-bottom: 20px;
+  padding-left:10px;
+  border:1px solid #eee;
+ }
 
 .contact-us .subtitle-1{
   font-size: 20px;
@@ -2960,6 +3287,8 @@ transform:rotate(-45deg);
     padding-right: 19px;
     padding-right: 19px;
     margin-top: 1px;
+    font-family: "Open Sans";
+    
 
 }
 
@@ -2969,6 +3298,17 @@ input[type=checkbox], input[type=radio] {
     line-height: normal;
     width: 18px;height: 18px;
     vertical-align: -4px;
+    font-family: "Open Sans";
+    margin-right: 9px;
+    
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-family: "Open Sans";
 }
 
 .form-group #upload{
@@ -2981,17 +3321,21 @@ input[type=checkbox], input[type=radio] {
 
 .form-group .upload-label{
   color: #449d44;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 15px;
   margin-bottom: 5px;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 
 .contact-us .btn-submit{
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 15px;padding-top: 15px;
   padding-right: 30px;padding-left: 30px;
+  font-family: "Open Sans";
+  color:#fff;
 }
 
 textarea.form-control {
@@ -3393,6 +3737,7 @@ text-transform: uppercase;
   padding: 9px 10px;
   text-transform: uppercase;
   width: 250px;
+  font-family:"Open Sans";
   }
 
   #button-warranty:hover{
