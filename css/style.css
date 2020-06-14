@@ -110,10 +110,23 @@ background: #4AA659;}
   color: #4BA75A;
 }
 .mynav .navbar-right li a strong{
-  background: #4BA75A;
+
   padding: 4px 3px;
-  color: #fff !important;
+  color: #4BA75A !important;
+  font-family:"Open Sans";
+  font-weight: 700;
 }
+
+.mynav .navbar-right li .blue strong {
+  color: #ffffff !Important;
+}
+
+.mynav .navbar-right li >.blue:hover{
+  background-color: #4ba75c !important;
+  color: #4BA75A;
+}
+
+
 
 
 .custom-slider img{
@@ -259,7 +272,7 @@ background: #4AA659;}
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 450px;
+    height: 400px;
 }
 
 
@@ -883,6 +896,8 @@ background: #4AA659;}
 .footer-bs h4{
   margin-top: 30px;
    color: #EDF6FE;
+   font-family: "Open Sans";
+   font-weight: 600;
 }
 
 .foot-logo{
@@ -897,6 +912,8 @@ background: #4AA659;}
 .footer-brand p{
   font-size: 16px;
   color: #EDF6FE; 
+  font-family: "Open Sans";
+  font-weight: 500;
 }
 .footer-bs .footer-nav ul{
   padding-left: 0 !important;
@@ -904,7 +921,8 @@ background: #4AA659;}
 
 .footer-bs .footer-nav ul.list { list-style:none; padding-left:0 !important; }
 .footer-bs .footer-nav ul.list li { padding:3px 0px; display:block;}
-.footer-bs .footer-nav ul.list a { color:#F9FCFF; }
+.footer-bs .footer-nav ul.list a { color:#F9FCFF; font-family: "Open Sans";
+  font-weight: 600; }
 .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
 
  .footer-nav ul.list li:last-child{
@@ -1421,6 +1439,8 @@ Pricing table
 }
 .f20 {
     font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 500;
 }
 .white {
     color: #fff !important;
@@ -3201,6 +3221,63 @@ transform:rotate(-45deg);
 
 
 
+  .content-lf img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .clr-inner h1{
+      color: #4BA65A;
+      line-height: 44px;
+      margin-top: 5px;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 32px;
+  }
+  
+  .clr-inner p{
+    color: #64656d;
+    line-height: 26px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  
+  .colors-top{
+    margin-top: 70px;
+    border: 1px solid #eee;
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+      margin-bottom: 30px;
+      padding-bottom:30px;
+      padding-top:30px;
+      padding-left: 20px;
+      padding-right:0;
+  }
+
+  .color-title-h2 {
+    color: #4BA65A;
+    line-height: 44px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 34px;
+}
+
+.color-text p {
+  color: #64656d;
+  line-height: 26px;
+  padding-top:0px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  text-align: center;
+}
+
+
 
  
 
@@ -3347,11 +3424,24 @@ textarea.form-control {
 /******** slider ********/
 
 .carousel-fullscreen .carousel-inner .item {
-    height: 480px; 
-    min-height: 480px; 
+    height: 400px; 
+    min-height: 400px; 
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: 100% 100%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  bottom:25px;
 }
 
 .dropdown-menu>li>a{
@@ -3437,12 +3527,14 @@ text-transform: uppercase;
   }
 
   .single-feau h5{
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
   text-align: center;
   margin-top: 27px;
+  font-family: "Open Sans";
+  font-weight: 500;
   }
 
   .single-feau .btn-price{
@@ -3460,6 +3552,8 @@ text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   width: 240px;
+  font-family: "Open Sans";
+ 
   }
 
 
