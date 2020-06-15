@@ -293,6 +293,7 @@ background: #4AA659;}
   margin-top: 40px;
   font-family: "Open Sans";
   font-weight: 700;
+  margin-top:25px;
 }
 .block-br{
   display: block;
@@ -512,7 +513,8 @@ background: #4AA659;}
 .laptop1{
   padding-top: 40px;
   padding-bottom: 60px;
-  background-color: #f1f1f1;
+  border-top:1px solid #f1f1f1;
+  border-bottom:1px solid #f1f1f1;
 }
 
 .laptop1 h1{
@@ -742,7 +744,8 @@ background: #4AA659;}
 
   .tz-gallery .offer-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 23px;
+    letter-spacing: 2px;
     text-align: center;
     margin-top: -5px;
     margin-bottom: 30px;
@@ -883,7 +886,7 @@ background: #4AA659;}
      border: 0;  
      font-size: 25px;
      font-weight: bold;   
-     margin-top: 40px;
+     margin-top: 25px;
 }
 /**** footer *****/
 
@@ -910,7 +913,7 @@ background: #4AA659;}
   color: #EDF6FE;
 }
 .footer-brand p{
-  font-size: 16px;
+  font-size: 15px;
   color: #EDF6FE; 
   font-family: "Open Sans";
   font-weight: 500;
@@ -942,16 +945,18 @@ background: #4AA659;}
 
 
 .copyrights{
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   //padding-top: 100px;
-  font-size: 16px;
+  font-size: 14px;
+  font-family:"Open Sans";
+  font-weight:500;
   background: #2B2E41;
   text-align: center;
   color: #fff;
 }
 .copyrights p a{
-  color: #CAE3FC;
+  color: #fafafa;
 } 
 
 .socialNet a:hover {
@@ -1200,7 +1205,7 @@ Pricing table
   font-weight: bolder;
   font-size: 15px;
   line-height: 17px;
-  background: #D2000D;
+  background: #50A95E;
   padding:  20px 19px;
   padding-bottom: 5px;
   -webkit-animation: argh-my-eyes 1s infinite;
@@ -1208,27 +1213,7 @@ Pricing table
   animation:         argh-my-eyes 1s infinite;
 }
 
- @-webkit-keyframes argh-my-eyes {
-    0%   { background-color: #D2000D; }
-    49% { background-color: #D2000D; }
-    50% { background-color: red; }
-    99% { background-color: red; }
-    100% { background-color: #D2000D; }
-  }
-  @-moz-keyframes argh-my-eyes {
-    0%   { background-color: #D2000D; }
-    49% { background-color: #D2000D; }
-    50% { background-color: red; }
-    99% { background-color: red; }
-    100% { background-color: red; }
-  }
-  @keyframes argh-my-eyes {
-    0%   { background-color: #D2000D; }
-    49% { background-color: #D2000D; }
-    50% { background-color: red; }
-    99% { background-color: red; }
-    100% { background-color: #D2000D; }
-  }
+ 
 
 /*Priceing Active*/
 .price-active,
@@ -1469,7 +1454,7 @@ Pricing table
 .y-us-section {
   background: #fff;
     padding: 55px 0 55px;
-    border-top: 2px solid #65B372;
+  
 }
 .y-us-head {
     text-align: center;
@@ -2791,7 +2776,7 @@ transform:rotate(-45deg);
 }
 
 .top-text{
-  width: 60%;
+  width: 50%;
   display: block;
   /*background-color:#4BA75A; */
 
@@ -2800,7 +2785,7 @@ transform:rotate(-45deg);
   bottom:-20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  left: 20%;
+  left: 25%;
 }
 
 .top-text h2{
@@ -2808,7 +2793,7 @@ transform:rotate(-45deg);
   text-align:center;
   width: 100%;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 37px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Open Sans";
@@ -2820,7 +2805,7 @@ transform:rotate(-45deg);
   text-align:center;
   width: 100%;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 37px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Open Sans";
@@ -2961,6 +2946,59 @@ transform:rotate(-45deg);
     padding-top: 18px;padding-bottom: 18px;
     margin-top: 30px;
     text-align: center;
+  }
+
+ .section-client{
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+ }
+
+ .section-client h2{
+  color: #4BA65A;
+  line-height: 44px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+ }
+  .client-feedback{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+  .client-feedback h3{
+    color: #4BA65A;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center
+  }
+
+  .client-feedback h6{
+    color: #64656d;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    font-style:italic;
+  }
+
+  .client-feedback p{
+    color: #64656d;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
   }
 
     .title-why{
