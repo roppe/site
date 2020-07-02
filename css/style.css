@@ -2776,16 +2776,15 @@ transform:rotate(-45deg);
 }
 
 .top-text{
-  width: 50%;
-  display: block;
-  /*background-color:#4BA75A; */
-
-  background-color:rgba(75,167,90,0.9);
-  position: absolute;
-  bottom:-20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  left: 25%;
+  width: 58%;
+    display: block;
+    /* background-color: #4BA75A; */
+    background-color: rgba(75,167,90,0.9);
+    position: absolute;
+    bottom: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 23%;
 }
 
 .top-text h2{
@@ -2866,7 +2865,7 @@ transform:rotate(-45deg);
   color: #64656d;
   line-height: 26px;
   padding-top: 10px;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Open Sans";
   font-weight: 400;
   text-align: left;
@@ -2928,6 +2927,8 @@ transform:rotate(-45deg);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
   padding-top: 15px;padding-bottom: 20px;
   padding-left: 10px;padding-right: 10px;
+
+  height: 172px;
   }
 
 
