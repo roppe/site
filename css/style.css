@@ -1811,540 +1811,11 @@ font-weight: 600;
 
 
 /********** Media **********/
+/* Portrait phones and smaller */
 
 
 
 
-@media only screen and (max-width: 767px){
-
-
-.single-feau h5{
-  font-size: 11px !important;
-  margin-top: 5px !important;
-}
-
-.single-feau img{
-  float: none !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 41%;
-}
-
-.single-feau .btn-price{
-  font-size: 10px !important;
-  
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
- 
-  margin-top: 25px;
-  }
-
-
-
-
-
-.city-names-brooklyn li p{
-  font-size: 10px!important;
-}
-
-.city-names-queens li p{
-  font-size: 10px !important;
-}
-
-
-.city-long li .head-town{
-  font-size:12px !important;
-}
-
-.city-long li p{
-  font-size:10px !important;
-}
-
-
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 220px;
- }
-
-
-.carousel-fullscreen .carousel-inner .item {
-    height: 220px !important;
-    min-height: 220px !important; 
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-}
-
-
- 
-
-.carousel-caption .btn-banner-request-price {
-    font-size: 9px !important;
-    font-weight: 700;
-    padding-left:15px !important;
-    padding-right:15px !important;
-    padding-top:9px !important;
-    padding-bottom:9px !important ;
-    left:-20px !important;
-    bottom:-70px !important;
-    position: absolute;
-    text-transform: uppercase;
-
-   
-}
-
-.carousel-caption .btn-banner-pricing {
-    font-size: 9px !important;
-    font-weight: 700;
-    padding-left: 35px !important;
-    padding-right: 35px !important;
-    padding-top:9px !important;
-    padding-bottom:9px !important;
-    left:-190px !important;
-    bottom:-70px !important;
-    position: absolute;
-    
-}
-
-.nyc-section .ph-number-location span{
-  font-size: 18px !important  ;
-}
-
-.nyc-section .ph-number-location a{
-  font-size:  19px !important ;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
-}
-
-.mynav .navbar-nav li a .fa-angle-down{
-  font-size: 25px;
-    vertical-align: -4px;
-    margin-left: 12px;
-}
-
-
-
-.mynav .navbar-nav li a {
-  text-align: center;
-  padding-top: 4px;padding-bottom: 4px;
-  font-size: 13px;
-
-}
-
-.mynav .navbar-nav>li>.dropdown-menu{
-  right: 0 !important;
- 
-  margin-right: auto !important;
-  margin-left: auto !important;
-  
-  width:80%;
-  z-index: 9999;
-}
-
-.mynav .navbar-nav>li>.dropdown-menu li{
-  display: inline-block;
-  width: 40%;
-}
-
-.other-services h4{
-  font-size: 15px;
-}
-.tz-gallery-small{
-  padding: 5px;
-}
-
-.tz-gallery-small .offer-title{
-  font-size: 13px;
-}
-
-.tz-gallery-small .lightbox img{
-  margin-top: 10px;margin-bottom: 10px;
-}
-
-.other-services .txt-title-1{
-  font-size: 18px;
-}
-
-.tz-gallery{
-  padding: 15px;
-}
-
-.tz-gallery .offer-title{
-  font-size: 16px;
-  margin-top: 4px;
-}
-
-.txt-location-top h2{
-  font-size: 32px;
-}
-
-.txt-location-top h6{
-  font-size: 16px;
-}
-
-
-.location-box p{
-  text-align: left;
-}
-
-.location-box .ph-number{
-  margin-top: 20px;
-  text-align: left;
-}
-.location-box a .img-responsive{
-  display: block;
-  margin-left:0;margin-right: 10px;
-}
-
-.location-box .ph-number span{
-  font-size: 18px;
-  margin-bottom: 10px;
-  
-}
-.location-box .ph-number .glyphicon{
-   display: table-cell;
-  font-size: 22px;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-
-.location-box .ph-number a{
-  display: table-cell;
-  font-size: 4vh;
-  padding-top-top: 10px !important;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block !important;
-    margin-right: auto !important;margin-left: auto !important;
-    width: 250px;
-    text-align: center !important;
-  }
-
-.logo{
-  margin-left: 15px;
-}
-.navbar-toggle .icon-bar {
-  width: 22px;
-  transition: all 0.2s;
-}
-.navbar-toggle .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
-.navbar-toggle .middle-bar {
-  opacity: 0;
-}
-.navbar-toggle .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
-}
-.navbar-toggle.collapsed .top-bar {
-  transform: rotate(0);
-}
-.navbar-toggle.collapsed .middle-bar {
-  opacity: 1;
-}
-.navbar-toggle.collapsed .bottom-bar {
-  transform: rotate(0);
-}
-.mynav .navbar-right {
-    margin-top: 2px;
-}
-.mynav .navbar-toggle{
-      background: none !important;
-    border: 0 !important;
-    margin-top: 30px;
-}
-.mynav .icon-bar{
-  background: #4CA75A !important;  
-}
-.mynav .navbar-collapse{
-  border:0 !important;
-}
-.bordergreen{
-  display: inline-block !important;
-}
-
-body{
-  text-align:center !important; 
-}
-
-.custom-slider img {
-    width: 100%;
-    height: 200px !important;
-}
-.whiteline{
-  margin: auto;
-  margin-top: 20px;
-}
-.laptop1{
-  padding-top: 25px;
-}
-
-.footer-menu ul li{
-  margin-right: 20px;
-}
-.foot-logo{
-  margin: auto;
-}
-
-#map_canvas {
-    height: 800px;
-}
-
-#over_map {
-    position: absolute;
-    top: 30px;
-    left: 60px;
-}
-
-#over_map_right{
-    position: absolute !important;
-    left: 50px;
-    top: auto !important;
-    bottom: 20px !important;
-  }
-.aboutus h1{
-  font-size: 30px;
-}
-.aboutus p{
-      line-height: 24px;
-    padding-top: 15px;
-    font-size: 15px;
-}
-.aboutus {
-    padding-top: 40px;
-}
-.laptop1 h1{
-  line-height: 40px;
-  font-size: 26px;
-}
-.laptop1 p{
-    line-height: 24px;
-    padding-top: 10px;
-    font-size: 15px;
-}
-.red-bg h2{
-  font-size: 26px;
-}
-.our-agencies h2{
-  font-size: 26px;
-  line-height: 40px;
-}
-.our-agencies p{
-    line-height: 24px;
-    padding-top: 10px;
-    font-size: 15px;
-}
-.our-agencies img{
-      margin-bottom: 20px !important;
-    float: left;
-    margin-left: 20px;
-    /* margin: auto; */
-    text-align: center;
-}
-
-
-.service-3 .service-box .y-us-content h4{
-      font-size: 15px;
-}
-.aboutus h1{
-    font-size: 22px;
-}
-.aboutus p{
-  line-height: 25px;
-    padding-top: 0px;
-    font-size: 14px;
-}
-.btn-quote{
-      font-size: 15px;
-          padding: 15px 30px;
-}
-
-.laptop1 h1{
-      line-height: 26px;
-    font-size: 25px;
-}
-.laptop1 p{
-  line-height: 25px;
-    padding-top: 0px;
-    font-size: 15px;
-}
-.our-locations .thumbnail>img{
-  height: 215px;
-}
-
-.our-locations .thumbnail{
-  width: 80%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-.mediamt0{
-  margin-top: 0 !important;
-}
-.pricing-content li{
-  text-align: left;
-}
-.pricing-footer{
-  text-align: left;
-}
-.aboutus-banner img{
-  text-align: center;
-  margin: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
-
-
-
-}
-
-
-@media (min-width: 768px) and (max-width: 991px){
-
-  
- .btn-banner-pricing {
-    font-size: 11px !important;
-    font-weight: 700;
-    background: #ef751e;
-    color: #ffffff;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    left:15% !important;
-    bottom: 30px;
-    position: absolute;
-}
-
-
-.carousel-caption .btn-banner-request-price {
-    font-size: 10px !important;
-    font-weight: 700;
-  
-    color: #ffffff;
-    padding-left: 10px;
-    padding-right: 10px !important;;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    left: 60% !important;
-    bottom: 30px;
-    position: absolute;
-    text-transform: uppercase;
-}
-
-  .mask-box:nth-child(2) .img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  }
-
-.mask-box:first-child .img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:45px;
-  }
-
-
-.location-box .ph-number{
-  margin-top: 20px;
-}
-
-.location-box .ph-number span{
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-.location-box .ph-number .glyphicon{
-  display: table-cell;
-  font-size: 22px;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-
-.location-box .ph-number a{
-  display: table-cell;
-  font-size: 4vh;
-  padding-top-top: 10px !important;
-
-}
-
-#over_map_right{
-      right: 50px;
-}
-.logo {
-    height: 40px;
-    margin-top: 10px;
-}
-.mynav .navbar-left {
-     margin-left: 0px; 
-}
-.mynav .navbar-nav li a{
-  padding: 5px 3px;
-    font-size: 10px;
-}
-.mynav .navbar-right li a{
-      font-size: 9px;
-}
-/*.mynav .navbar-right{
-  margin-top: 0 !important;
-}*/
-
-.bordergreen{
-  margin-top: -2px !important;
-  padding: 5px 5px !important;
-}
-.service-3 .service-box .y-us-content h4{
-      font-size: 15px;
-}
-.aboutus h1{
-      line-height: 0;
-    font-size: 25px;
-}
-.aboutus p{
-  line-height: 25px;
-    padding-top: 20px;
-    font-size: 15px;
-}
-
-.laptop1 h1{
-      line-height: 26px;
-    font-size: 25px;
-}
-.laptop1 p{
-  line-height: 25px;
-    padding-top: 0px;
-    font-size: 15px;
-}
-.our-locations .thumbnail>img{
-  height: 215px;
-}
-.mynav .container-fluid{
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-
-
-}
 
 
 
@@ -2409,6 +1880,14 @@ body{
 }
 
 }
+
+
+
+
+
+
+
+
 
 /*********** Media ***********/
 
@@ -4066,3 +3545,696 @@ text-transform: uppercase;
     font-weight: 606;
     text-align:center;
   }
+
+
+  @media (min-width: 768px) and (max-width: 991px){
+
+  
+  
+    .btn-banner-pricing {
+       font-size: 11px !important;
+       font-weight: 700;
+       background: #ef751e;
+       color: #ffffff;
+       padding-left: 10px !important;
+       padding-right: 10px !important;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       left:15% !important;
+       bottom: 30px;
+       position: absolute;
+   }
+   
+   
+   .carousel-caption .btn-banner-request-price {
+       font-size: 10px !important;
+       font-weight: 700;
+     
+       color: #ffffff;
+       padding-left: 10px;
+       padding-right: 10px !important;;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       left: 60% !important;
+       bottom: 30px;
+       position: absolute;
+       text-transform: uppercase;
+   }
+   
+     .mask-box:nth-child(2) .img-responsive{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     }
+   
+   .mask-box:first-child .img-responsive{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:45px;
+     }
+   
+   
+   .location-box .ph-number{
+     margin-top: 20px;
+   }
+   
+   .location-box .ph-number span{
+     font-size: 16px;
+     margin-bottom: 10px;
+   }
+   .location-box .ph-number .glyphicon{
+     display: table-cell;
+     font-size: 22px;
+     padding-right: 10px;
+     padding-top: 10px;
+   }
+   
+   .location-box .ph-number a{
+     display: table-cell;
+     font-size: 4vh;
+     padding-top-top: 10px !important;
+   
+   }
+   
+   #over_map_right{
+         right: 50px;
+   }
+   .logo {
+       height: 40px;
+       margin-top: 10px;
+   }
+   .mynav .navbar-left {
+        margin-left: 0px; 
+   }
+   .mynav .navbar-nav li a{
+     padding: 5px 3px;
+       font-size: 10px;
+   }
+   .mynav .navbar-right li a{
+         font-size: 9px;
+   }
+   /*.mynav .navbar-right{
+     margin-top: 0 !important;
+   }*/
+   
+   .bordergreen{
+     margin-top: -2px !important;
+     padding: 5px 5px !important;
+   }
+   .service-3 .service-box .y-us-content h4{
+         font-size: 15px;
+   }
+   .aboutus h1{
+         line-height: 0;
+       font-size: 25px;
+   }
+   .aboutus p{
+     line-height: 25px;
+       padding-top: 20px;
+       font-size: 15px;
+   }
+   
+   .laptop1 h1{
+         line-height: 26px;
+       font-size: 25px;
+   }
+   .laptop1 p{
+     line-height: 25px;
+       padding-top: 0px;
+       font-size: 15px;
+   }
+   .our-locations .thumbnail>img{
+     height: 215px;
+   }
+   .mynav .container-fluid{
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+
+   
+ 
+   }
+
+
+   @media only screen and (max-width: 767px){
+    .ours-services h3{
+      font-size:27px;
+     
+    }
+    .serv-h2{
+      font-size: 21px;
+    }
+    .list-houston li{
+      width: 100%!important;
+    }
+    .green-banner .text-banner h2{
+      font-size: 20px;
+    }
+
+    .section-client{
+      padding-top: 20px;
+    }
+
+    .section-client h2{
+      font-size: 27px;
+    }
+
+    .y-us-title h2{
+      font-size: 29px;
+    }
+
+    .y-us-section{
+      padding-top: 25px;
+    }
+
+    .laptop1{
+      padding-bottom: 30px;
+    }
+
+    .process-services .main-title{
+      font-size: 27px;
+    }
+
+    .process-page .process-headline-txt{
+      font-size: 17px;
+    }
+
+    .process-services .process-box h3{
+      font-size: 16px;
+    }
+
+    #button-warranty{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .price-h2{
+      font-size: 27px;
+      margin-top: 15px;
+    }
+
+    .before-h2{
+      font-size: 25px;
+      margin-top: 10px;
+    }
+
+    .before-h3{
+      font-size: 20px;
+    }
+
+    .be-af-gallery img {
+      display: block;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .aboutus-section{
+    padding: 30px;
+  }
+
+    .price-title-h2{
+      font-size: 25px;
+    }
+
+    .txt-con h1{
+      font-size: 30px;
+    }
+
+    .section-weserve h2{
+      font-size: 19px;
+    }
+
+    .top-text {
+      width: 100%;
+      display: block;
+      /* background-color: #4BA75A; */
+      background-color: rgba(75,167,90,0.9);
+      position: absolute;
+      bottom: -48px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      left: 0%;
+  }
+
+  .top-text h2 span{
+    font-size: 18px;
+  }
+  .top-text h2{
+    font-size: 18px;
+  }
+
+    .contact-us h3{
+      font-size: 23px;
+      margin-bottom: 15px;
+    }
+
+    .contact-us h5{
+      font-size: 15px;
+    }
+
+    .services-info .img-responsive{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .text-inner-loc h1 {
+      color: #4BA65A;
+      line-height: 33px;
+      margin-top: 10px;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 26px;
+  }
+
+  .other-services-loc .other-h2 {
+    color: #4BA65A;
+    line-height: 31px;
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+  .other-box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title-why{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .text-inner-loc p{
+    font-size: 15px;
+  }
+
+    
+  
+  .single-feau h5{
+    font-size: 11px !important;
+    margin-top: 5px !important;
+  }
+  
+  .single-feau img{
+    float: none !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 41%;
+  }
+  
+  .single-feau .btn-price{
+    font-size: 10px !important;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    margin-top: 25px;
+    }
+  
+  
+  
+  
+  
+  .city-names-brooklyn li p{
+    font-size: 10px!important;
+  }
+  
+  .city-names-queens li p{
+    font-size: 10px !important;
+  }
+  
+  
+  .city-long li .head-town{
+    font-size:12px !important;
+  }
+  
+  .city-long li p{
+    font-size:10px !important;
+  }
+  
+  
+  .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 220px;
+   }
+  
+  
+  .carousel-fullscreen .carousel-inner .item {
+      height: 220px !important;
+      min-height: 220px !important; 
+      background-position: center center;
+      background-repeat: no-repeat;
+      /* background-size: 100% 100%; */
+  }
+  
+  
+   
+  
+  .carousel-caption .btn-banner-request-price {
+      font-size: 9px !important;
+      font-weight: 700;
+      padding-left:15px !important;
+      padding-right:15px !important;
+      padding-top:9px !important;
+      padding-bottom:9px !important ;
+      left:-20px !important;
+      bottom:-70px !important;
+      position: absolute;
+      text-transform: uppercase;
+  
+     
+  }
+  
+  .carousel-caption .btn-banner-pricing {
+      font-size: 9px !important;
+      font-weight: 700;
+      padding-left: 35px !important;
+      padding-right: 35px !important;
+      padding-top:9px !important;
+      padding-bottom:9px !important;
+      left:-190px !important;
+      bottom:-70px !important;
+      position: absolute;
+      
+  }
+  
+  .nyc-section .ph-number-location span{
+    font-size: 18px !important  ;
+  }
+  
+  .nyc-section .ph-number-location a{
+    font-size:  19px !important ;
+  }
+  
+  .carousel-indicators {
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      z-index: 15;
+      width: 60%;
+      padding-left: 0;
+      margin-left: -30%;
+      text-align: center;
+      list-style: none;
+  }
+  
+  .mynav .navbar-nav li a .fa-angle-down{
+    font-size: 25px;
+      vertical-align: -4px;
+      margin-left: 12px;
+  }
+  
+  
+  
+  .mynav .navbar-nav li a {
+    text-align: center;
+    padding-top: 4px;padding-bottom: 4px;
+    font-size: 13px;
+  
+  }
+  
+  .mynav .navbar-nav>li>.dropdown-menu{
+    right: 0 !important;
+   
+    margin-right: auto !important;
+    margin-left: auto !important;
+    
+    width:80%;
+    z-index: 9999;
+  }
+  
+  .mynav .navbar-nav>li>.dropdown-menu li{
+    display: inline-block;
+    width: 40%;
+  }
+  
+  .other-services h4{
+    font-size: 15px;
+  }
+  .tz-gallery-small{
+    padding: 5px;
+  }
+  
+  .tz-gallery-small .offer-title{
+    font-size: 13px;
+  }
+  
+  .tz-gallery-small .lightbox img{
+    margin-top: 10px;margin-bottom: 10px;
+  }
+  
+  .other-services .txt-title-1{
+    font-size: 18px;
+  }
+  
+  .tz-gallery{
+    padding: 15px;
+  }
+  
+  .tz-gallery .offer-title{
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  
+  .txt-location-top h2{
+    font-size: 32px;
+  }
+  
+  .txt-location-top h6{
+    font-size: 16px;
+  }
+  
+  
+  .location-box p{
+    text-align: left;
+  }
+  
+  .location-box .ph-number{
+    margin-top: 20px;
+    text-align: left;
+  }
+  .location-box a .img-responsive{
+    display: block;
+    margin-left:0;margin-right: 10px;
+  }
+  
+  .location-box .ph-number span{
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+  }
+  .location-box .ph-number .glyphicon{
+     display: table-cell;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .location-box .ph-number a{
+    display: table-cell;
+    font-size: 4vh;
+    padding-top-top: 10px !important;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+      display: block !important;
+      margin-right: auto !important;margin-left: auto !important;
+      width: 250px;
+      text-align: center !important;
+    }
+  
+  .logo{
+    margin-left: 15px;
+  }
+  .navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .navbar-toggle .middle-bar {
+    opacity: 0;
+  }
+  .navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  .mynav .navbar-right {
+      margin-top: 2px;
+  }
+  .mynav .navbar-toggle{
+        background: none !important;
+      border: 0 !important;
+      margin-top: 30px;
+  }
+  .mynav .icon-bar{
+    background: #4CA75A !important;  
+  }
+  .mynav .navbar-collapse{
+    border:0 !important;
+  }
+  .bordergreen{
+    display: inline-block !important;
+  }
+  
+  body{
+    text-align:center !important; 
+  }
+  
+  .custom-slider img {
+      width: 100%;
+      height: 200px !important;
+  }
+  .whiteline{
+    margin: auto;
+    margin-top: 20px;
+  }
+  .laptop1{
+    padding-top: 25px;
+  }
+  
+  .footer-menu ul li{
+    margin-right: 20px;
+  }
+  .foot-logo{
+    margin: auto;
+  }
+  
+  #map_canvas {
+      height: 800px;
+  }
+  
+  #over_map {
+      position: absolute;
+      top: 30px;
+      left: 60px;
+  }
+  
+  #over_map_right{
+      position: absolute !important;
+      left: 50px;
+      top: auto !important;
+      bottom: 20px !important;
+    }
+  .aboutus h1{
+    font-size: 30px;
+  }
+  .aboutus p{
+        line-height: 24px;
+      padding-top: 15px;
+      font-size: 15px;
+  }
+  .aboutus {
+      padding-top: 40px;
+  }
+  .laptop1 h1{
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .laptop1 p{
+      line-height: 24px;
+      padding-top: 10px;
+      font-size: 15px;
+  }
+  .red-bg h2{
+    font-size: 26px;
+  }
+  .our-agencies h2{
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .our-agencies p{
+      line-height: 24px;
+      padding-top: 10px;
+      font-size: 15px;
+  }
+  .our-agencies img{
+        margin-bottom: 20px !important;
+      float: left;
+      margin-left: 20px;
+      /* margin: auto; */
+      text-align: center;
+  }
+  
+  
+  .service-3 .service-box .y-us-content h4{
+        font-size: 15px;
+  }
+  .aboutus h1{
+      font-size: 22px;
+  }
+  .aboutus p{
+    line-height: 25px;
+      padding-top: 0px;
+      font-size: 14px;
+  }
+  .btn-quote{
+        font-size: 15px;
+            padding: 15px 30px;
+  }
+  
+  .laptop1 h1{
+        line-height: 26px;
+      font-size: 25px;
+  }
+  .laptop1 p{
+    line-height: 25px;
+      padding-top: 0px;
+      font-size: 15px;
+  }
+  .our-locations .thumbnail>img{
+    height: 215px;
+  }
+  
+  .our-locations .thumbnail{
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mediamt0{
+    margin-top: 0 !important;
+  }
+  .pricing-content li{
+    text-align: left;
+  }
+  .pricing-footer{
+    text-align: left;
+  }
+  .aboutus-banner img{
+    text-align: center;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  
+  
+  }
+
+  
