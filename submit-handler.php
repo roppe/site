@@ -1,6 +1,6 @@
 <?php
 require_once "recaptchalib.php";
-$secret = "6Le-YasUAAAAADNwobSLWNNlDfl_i4ABVRGmynVQ";
+$secret = "ADD HERE SECRTET RECAPTHA CODE";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 
