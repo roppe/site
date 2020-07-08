@@ -888,6 +888,21 @@ background: #4AA659;}
      font-weight: bold;   
      margin-top: 25px;
 }
+
+.green-banner .btn-quote{
+     padding: 20px 50px;
+     background: #1D83F4;
+     color: #fff !important;
+     border-radius: 10px;
+     border: 0;  
+     font-size: 16px;
+     font-weight: bold;   
+     margin-top: 25px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 300px;
+}
 /**** footer *****/
 
 .footer-bs {
@@ -1819,57 +1834,6 @@ font-weight: 600;
 
 
 
-@media (min-width: 992px) and (max-width: 1199px){
-
- .mask-box:first-child .img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 44px;
-  }
-
-  .mask-box:nth-child(2) .img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 44px;
-  }
-
-
-.logo {
-    margin-top: 11px;
-    height: 50px;
-}
-.mynav .navbar-nav li a{
-  font-size: 12px;
-    padding: 15px 6px !important;
-}
-.aboutus h1{
-      font-size: 25px;
-    color: #292C3F;
-    line-height: 0;
-}
-.laptop1 h1{
-  line-height: 0;
-    font-size: 23px;
-}
-.service-3 .service-box .y-us-content h4{
-  font-size: 15px;
-}
-
-.our-locations .thumbnail h3{
-      font-size: 20px;
-}
-.our-locations .thumbnail p{
-  font-size: 14px;
-}
-
-.pricing-head h3, .pricing-head h4{
-  font-size: 18px !important;
-}
-
-
-}
 
 
 @media (min-width: 1200px) and (max-width: 1255px){
@@ -2545,6 +2509,7 @@ transform:rotate(-45deg);
   .nyc-section .ph-number-location a:hover{
     cursor:pointer;
     color: #000;
+ 
   }
 
   .nyc-section .ph-number-location span{
@@ -2743,6 +2708,7 @@ transform:rotate(-45deg);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
   }
   
   .clr-inner h1{
@@ -3443,6 +3409,8 @@ text-transform: uppercase;
         box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
         padding-top: 25px;padding-bottom: 20px;
         padding-left: 10px;padding-right: 10px;
+        height: 150px;
+        
   }
 
 
@@ -3458,7 +3426,7 @@ text-transform: uppercase;
 
   .green-banner{
     width: 100%;
-    padding-top: 35px;padding-bottom: 35px;
+    padding-top: 20px;padding-bottom: 25px;
     background-color:#4AA659;
     margin-top: 50px;;
   }
@@ -3466,17 +3434,18 @@ text-transform: uppercase;
   .green-banner .text-banner h2{
     font-family: "Open Sans";
     font-weight: 700;
-    font-size: 25px;
-    text-align: left;
+    font-size: 22px;
+    text-align: center;
     text-transform: uppercase;
     color: #fff;
+    
   }
 
   .green-banner .text-banner h3{
     font-family: "Open Sans";
     font-weight: 500;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     color: #fff;
   }
 
@@ -3547,141 +3516,322 @@ text-transform: uppercase;
   }
 
 
-  @media (min-width: 768px) and (max-width: 991px){
+  @media (min-width: 992px) and (max-width: 1199px){
+ 
 
-  
-  
-    .btn-banner-pricing {
-       font-size: 11px !important;
-       font-weight: 700;
-       background: #ef751e;
-       color: #ffffff;
-       padding-left: 10px !important;
-       padding-right: 10px !important;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       left:15% !important;
-       bottom: 30px;
-       position: absolute;
-   }
-   
-   
-   .carousel-caption .btn-banner-request-price {
-       font-size: 10px !important;
-       font-weight: 700;
-     
-       color: #ffffff;
-       padding-left: 10px;
-       padding-right: 10px !important;;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       left: 60% !important;
-       bottom: 30px;
-       position: absolute;
-       text-transform: uppercase;
-   }
+    /*.mask-box:first-child .img-responsive{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 44px;
+     }
    
      .mask-box:nth-child(2) .img-responsive{
      display: block;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 60px;
-     }
+     margin-top: 44px;
+     }*/
+
+     .top-text h2 {
    
-   .mask-box:first-child .img-responsive{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top:45px;
-     }
+      font-size: 30px;
+      }
+
+      .top-text h2  span {
+   
+        font-size: 30px;
+        }
+
+        .top-text{
+          width: 70%;
+          left: 15%;
+        }
+
+        .text-inner-loc h1{
+          font-size: 26px;
+        }
+
+        .other-box h3{
+          font-size: 17px;
+        }
+
+        .other-box .des-tx p{
+          font-size: 13px;
+        }
+
+        .other-box{
+          margin-bottom: 25px;
+        }
+
+        .text-inner-loc p{
+          font-size: 15px;
+        }
+
+        .location-features h6{
+          font-size: 12px;
+        }
    
    
-   .location-box .ph-number{
-     margin-top: 20px;
-   }
-   
-   .location-box .ph-number span{
-     font-size: 16px;
-     margin-bottom: 10px;
-   }
-   .location-box .ph-number .glyphicon{
-     display: table-cell;
-     font-size: 22px;
-     padding-right: 10px;
-     padding-top: 10px;
-   }
-   
-   .location-box .ph-number a{
-     display: table-cell;
-     font-size: 4vh;
-     padding-top-top: 10px !important;
-   
-   }
-   
-   #over_map_right{
-         right: 50px;
-   }
    .logo {
-       height: 40px;
-       margin-top: 10px;
-   }
-   .mynav .navbar-left {
-        margin-left: 0px; 
+       margin-top: 11px;
+       height: 50px;
    }
    .mynav .navbar-nav li a{
-     padding: 5px 3px;
-       font-size: 10px;
-   }
-   .mynav .navbar-right li a{
-         font-size: 9px;
-   }
-   /*.mynav .navbar-right{
-     margin-top: 0 !important;
-   }*/
-   
-   .bordergreen{
-     margin-top: -2px !important;
-     padding: 5px 5px !important;
-   }
-   .service-3 .service-box .y-us-content h4{
-         font-size: 15px;
+     font-size: 12px;
+       padding: 15px 6px !important;
    }
    .aboutus h1{
-         line-height: 0;
-       font-size: 25px;
+         font-size: 25px;
+       color: #292C3F;
+       line-height: 0;
    }
-   .aboutus p{
-     line-height: 25px;
-       padding-top: 20px;
-       font-size: 15px;
+   .laptop1 h1{
+     line-height: 0;
+       font-size: 23px;
+   }
+   .service-3 .service-box .y-us-content h4{
+     font-size: 15px;
    }
    
-   .laptop1 h1{
-         line-height: 26px;
-       font-size: 25px;
+   .our-locations .thumbnail h3{
+         font-size: 20px;
    }
-   .laptop1 p{
-     line-height: 25px;
-       padding-top: 0px;
-       font-size: 15px;
+   .our-locations .thumbnail p{
+     font-size: 14px;
    }
-   .our-locations .thumbnail>img{
-     height: 215px;
+   
+   .pricing-head h3, .pricing-head h4{
+     font-size: 18px !important;
    }
-   .mynav .container-fluid{
-     padding-left: 5px;
-     padding-right: 5px;
+   
+   
    }
+   
+
+  @media (min-width: 768px) and (max-width: 991px){
+
+    .process-page .process-headline-txt{
+      font-size: 17px;
+    }
+
+    .surface-finishing h4{
+      font-size: 15px;
+    }
+
+    .process-services .main-title{
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .process-services .process-box h3{
+      font-size: 16px;
+    }
+
+    .top-text h2{
+      font-size: 25px;
+    }
+
+    .text-inner-loc p{
+      font-size: 14px;
+    }
+
+    .location-features h6{
+      font-size: 13px;
+    }
+
+    .other-box{
+      margin-bottom: 30px;
+    }
+
+    .top-text h2 span{
+      font-size: 25px;
+    }
+    .mt50{
+      margin-top: 25px;
+    }
+    
+    .services-info .des p{
+     
+      font-size: 12px;
+    }
+
+    .serv-h2{
+      font-size: 23px;
+    }
+
+    .ser-img{
+      display: block;
+      margin-left: auto;margin-right: auto;
+      display: none;
+    }
+
+     .btn-quote{
+      font-size: 18px;
+      display: block !important;
+      margin-left: auto;
+      margin-right: auto;
+      width: 350px;
+
+    }
+
+    .services-info h3{
+      font-size: 16px;
+      padding-top: 6px;padding-bottom: 6px;
+    }
+    
+        .btn-banner-pricing {
+          font-size: 11px !important;
+          font-weight: 700;
+          background: #ef751e;
+          color: #ffffff;
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          left:15% !important;
+          bottom: 30px;
+          position: absolute;
+      }
+      
+      
+      .carousel-caption .btn-banner-request-price {
+          font-size: 10px !important;
+          font-weight: 700;
+        
+          color: #ffffff;
+          padding-left: 10px;
+          padding-right: 10px !important;;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          left: 60% !important;
+          bottom: 30px;
+          position: absolute;
+          text-transform: uppercase;
+      }
+      
+       /* .mask-box:nth-child(2) .img-responsive{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        }
+      
+      .mask-box:first-child .img-responsive{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:45px;
+        }*/
+        /*.mask-box .img-responsive{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top:45px;
+          width: 100%;
+          height: 200px;
+          }*/
+      
+      
+      .location-box .ph-number{
+        margin-top: 20px;
+      }
+      
+      .location-box .ph-number span{
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .location-box .ph-number .glyphicon{
+        display: table-cell;
+        font-size: 22px;
+        padding-right: 10px;
+        padding-top: 10px;
+      }
+      
+      .location-box .ph-number a{
+        display: table-cell;
+        font-size: 4vh;
+        padding-top-top: 10px !important;
+      
+      }
+      
+      #over_map_right{
+            right: 50px;
+      }
+      .logo {
+          height: 40px;
+          margin-top: 10px;
+      }
+      .mynav .navbar-left {
+            margin-left: 0px; 
+      }
+      .mynav .navbar-nav li a{
+        padding: 5px 3px;
+          font-size: 10px;
+      }
+      .mynav .navbar-right li a{
+            font-size: 9px;
+      }
+      /*.mynav .navbar-right{
+        margin-top: 0 !important;
+      }*/
+      
+      .bordergreen{
+        margin-top: -2px !important;
+        padding: 5px 5px !important;
+      }
+      .service-3 .service-box .y-us-content h4{
+            font-size: 15px;
+      }
+      .aboutus h1{
+            line-height: 0;
+          font-size: 25px;
+      }
+      .aboutus p{
+        line-height: 25px;
+          padding-top: 20px;
+          font-size: 15px;
+      }
+      
+      .laptop1 h1{
+            line-height: 26px;
+          font-size: 25px;
+      }
+      .laptop1 p{
+        line-height: 25px;
+          padding-top: 0px;
+          font-size: 15px;
+      }
+      .our-locations .thumbnail>img{
+        height: 215px;
+      }
+      .mynav .container-fluid{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
 
    
  
    }
 
 
+
    @media only screen and (max-width: 767px){
     .ours-services h3{
       font-size:27px;
      
+    }
+
+    .green-banner .text-banner h3{
+      font-size: 14px;
+    }
+  
+
+    .text-banner .hvr-sink{
+      font-size: 18px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     .serv-h2{
       font-size: 21px;
@@ -3691,6 +3841,14 @@ text-transform: uppercase;
     }
     .green-banner .text-banner h2{
       font-size: 20px;
+      text-align: center;
+    }
+
+    .ours-services .img-responsive{
+      margin-top: 20px !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .section-client{
@@ -3715,6 +3873,7 @@ text-transform: uppercase;
 
     .process-services .main-title{
       font-size: 27px;
+      margin-bottom:15px;
     }
 
     .process-page .process-headline-txt{
@@ -3800,6 +3959,7 @@ text-transform: uppercase;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      width: 100%;
     }
 
     .text-inner-loc h1 {
@@ -4232,9 +4392,33 @@ text-transform: uppercase;
     margin-right: auto;
     margin-top: 10px;
   }
-  
-  
-  
+
+  .serv-h2 {
+    font-size: 22px;
+    line-height: 26px;
+    ,margin-top: 5px;margin-bottom:5px;
   }
 
+  .services-info .des{
+    height: 125px;
+  }
+
+
+  
+}
+
+
+@media (min-width: 1800px) and (max-width: 1920px){
+
+      .tz-gallery .offer-title{
+        background: #000;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 91%;
+      }
+
+}
+  /* Large Devices, Wide Screens */
+ 
   
